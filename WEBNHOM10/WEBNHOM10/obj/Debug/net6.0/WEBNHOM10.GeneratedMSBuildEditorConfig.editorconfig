@@ -16,6 +16,30 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Ki2_Nam3\LapTrinhWeb\WEBNHOM10\WEBNHOM10
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Ki2_Nam3/LapTrinhWeb/WEBNHOM10/WEBNHOM10/Areas/Admin/Views/Admin/DuyetYcThue.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cRHV5ZXRZY1RodWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki2_Nam3/LapTrinhWeb/WEBNHOM10/WEBNHOM10/Areas/Admin/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki2_Nam3/LapTrinhWeb/WEBNHOM10/WEBNHOM10/Areas/Admin/Views/Admin/QuanLyYeucauThue.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cUXVhbkx5WWV1Y2F1VGh1ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki2_Nam3/LapTrinhWeb/WEBNHOM10/WEBNHOM10/Areas/Admin/Views/Admin/XemHopDong.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cWGVtSG9wRG9uZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki2_Nam3/LapTrinhWeb/WEBNHOM10/WEBNHOM10/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki2_Nam3/LapTrinhWeb/WEBNHOM10/WEBNHOM10/Views/Home/GuiYeuCauThue.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxHdWlZZXVDYXVUaHVlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Ki2_Nam3/LapTrinhWeb/WEBNHOM10/WEBNHOM10/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -26,6 +50,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Ki2_Nam3/LapTrinhWeb/WEBNHOM10/WEBNHOM10/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki2_Nam3/LapTrinhWeb/WEBNHOM10/WEBNHOM10/Views/Shared/_LayoutIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki2_Nam3/LapTrinhWeb/WEBNHOM10/WEBNHOM10/Views/Shared/_LayoutNarBar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXROYXJCYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Ki2_Nam3/LapTrinhWeb/WEBNHOM10/WEBNHOM10/Views/Shared/_ValidationScriptsPartial.cshtml]

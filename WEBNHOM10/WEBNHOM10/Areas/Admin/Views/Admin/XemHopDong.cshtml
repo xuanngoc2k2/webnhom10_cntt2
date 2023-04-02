@@ -1,0 +1,30 @@
+﻿@model WEBNHOM10.Models.SinhVien
+
+@{
+    ViewData["Title"] = "XemHopDong";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+@model WEBNHOM10.Models.SinhVien
+
+<!-- hiển thị thông tin sinh viên -->
+<h2>Thông tin sinh viên</h2>
+<p>Tên: @Model.TenSinhVien</p>
+<p>Lớp: @Model.MaLopNavigation.TenLop</p>
+<p>Quê quán: @Model.MaQueNavigation.TenQue</p>
+<p>Phòng: @Model.MaPhongNavigation.TenPhong</p>
+
+<!-- hiển thị thông tin hợp đồng -->
+<h2>Thông tin hợp đồng</h2>
+@if (Model.MaHopDongNavigation == null)
+{
+    <p>Chưa có hợp đồng</p>
+}
+else
+{
+    <p>Số hợp đồng: @Model.MaHopDongNavigation.MaHopDong</p>
+    <p>Ngày kí: @Model.MaHopDongNavigation.NgayKi.ToShortDateString()</p>
+    <p>Ngày hết hạn: @Model.MaHopDongNavigation.NgayHetHan.ToShortDateString()</p>
+    <p>Số tháng: @Convert.ToInt32((Model.MaHopDongNavigation.NgayHetHan - Model.MaHopDongNavigation.NgayKi).TotalDays / 30)</p>
+}
+

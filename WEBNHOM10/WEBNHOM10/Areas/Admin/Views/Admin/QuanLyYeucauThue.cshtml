@@ -1,0 +1,53 @@
+﻿@model IEnumerable<WEBNHOM10.Models.SinhVien>
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "QuanLyYeucauThue";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+<div class="heading_container heading_center">
+    <h2>
+        Quản lí yêu cầu thuê
+    </h2>
+    </div>
+    <div class="row">
+        <div class="table-responsive">
+            <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>@Html.DisplayNameFor(model => model.MaSinhVien)</th>
+                    <th>@Html.DisplayNameFor(model => model.TenSinhVien)</th>
+                    <th>@Html.DisplayNameFor(model => model.NgaySinh)</th>
+                    <th>@Html.DisplayNameFor(model => model.GioiTinh)</th>
+                    <th>@Html.DisplayNameFor(model => model.SoDienThoat)</th>
+                    <th>@Html.DisplayNameFor(model => model.MaPhongNavigation.TenPhong)</th>
+                    <th>@Html.DisplayNameFor(model => model.MaLopNavigation.TenLop)</th>
+                    <th>@Html.DisplayNameFor(model => model.MaQueNavigation.TenQue)</th>
+                    <th>@Html.DisplayNameFor(model => model.SoCccd)</th>
+                    <th>@Html.DisplayNameFor(model => model.TrangThai)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  @foreach (var item in Model) {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.MaSinhVien)</td>
+                        <td>@Html.DisplayFor(modelItem => item.TenSinhVien)</td>
+                        <td>@Html.DisplayFor(modelItem => item.NgaySinh)</td>
+                        <td>@Html.DisplayFor(modelItem => item.GioiTinh)</td>
+                        <td>@Html.DisplayFor(modelItem => item.SoDienThoat)</td>
+                        <td>@Html.DisplayFor(modelItem => item.MaPhongNavigation.TenPhong)</td>
+                        <td>@Html.DisplayFor(modelItem => item.MaLopNavigation.TenLop)</td>
+                        <td>@Html.DisplayFor(modelItem => item.MaQueNavigation.TenQue)</td>
+                        <td>@Html.DisplayFor(modelItem => item.SoCccd)</td>
+                        <td>@Html.DisplayFor(modelItem => item.TrangThai)</td>
+                        <td>
+                            <a type="button" asp-action="DuyetYcThue" asp-route-maSV="@item.MaSinhVien">Duyệt <i class="fa-solid fa-check"></i></a>
+                            <a type="button" asp-action="Edit" asp-route-id="@item.MaSinhVien">Xóa <i class="fa-solid fa-trash"></i></a>
+                            <a type="button" asp-action="XemHopDong" asp-route-id="@item.MaSinhVien">Xem <i class="fa-solid fa-trash"></i></a>
+                        </td>
+                    </tr>
+                   }
+                </tbody>
+              </table>
+          </div>
+    </div>
+</div>

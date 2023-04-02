@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\WEBNHOM10.props" />
+</Project>
