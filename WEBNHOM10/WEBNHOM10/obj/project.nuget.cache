@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YwffHobBp0zA3uOJZ+SrJYsJ3ijXDmcRm3GM/uTQRTFBI8smIF+BHeCCZgoQnYurc1Jc/jjqIhd7YcG4ig+S0A==",
+  "dgSpecHash": "+z1Bi//qh84+pudyu5hAZyL2HbX+Qw2RB4JIa6zJ7kQF4QfYNnaR2XO3vwVGzyEdgS99rUWEtvPvU01+SC0b2w==",
   "success": true,
-  "projectFilePath": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\WEBNHOM10.csproj",
+  "projectFilePath": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\WEBNHOM10.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\84377\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\84377\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

@@ -35,6 +35,7 @@ namespace WEBNHOM10.Areas.Admin.Controllers
                 .Include(x => x.MaLopNavigation)
                 .Include(x => x.MaQueNavigation)
                 .Include(x => x.MaPhongNavigation)
+                .Include(x=>x.MaHopDongNavigation)
                 .SingleOrDefault(x=>x.MaSinhVien==maSV);
             ViewBag.sv = sv;
             return View();
@@ -72,12 +73,21 @@ namespace WEBNHOM10.Areas.Admin.Controllers
                 db.SaveChanges();
                 sv.MaHopDong = newHopdong.MaHopDong;
                 sv.MaHopDongNavigation = newHopdong;
+                sv.TrangThai = 1;
                 db.SaveChanges();
                 TempData["DuyetYC"] = "Đã duyệt !!";
                 return RedirectToAction("quanliycthue", "admin");
             }
             return View(hopDong);
         }
+        [Route("xoayeucau")]
+        [HttpGet]
+        public IActionResult XoaYeuCau(int masv)
+        {
+            var sv = db.SinhViens.Where(x=>x.MaSinhVien == masv);
+            return View(sv);
+        }
+
         [Route("xemhopdong")]
         [HttpGet]
         public IActionResult XemHopDong(int maSv)

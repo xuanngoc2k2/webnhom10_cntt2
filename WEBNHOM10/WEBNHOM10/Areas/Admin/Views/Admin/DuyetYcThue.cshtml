@@ -4,8 +4,6 @@
     ViewData["Title"] = "DuyetYcThue";
     Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
 }
-
-
 <h2>Duyệt yêu cầu thuê phòng của sinh viên</h2>
 
 <p><b>Thông tin sinh viên:</b></p>
@@ -54,50 +52,3 @@
         </ul>
     </div>
 }
-@*<div class="heading_container heading_center">
-    <h2>Duyệt yêu cầu thuê</h2>
-    <div class="container">
-        <div class="row" style="text-align:left">
-            <div class="col-md-6">
-                <p><strong>Mã sinh viên:</strong>@Model.MaSinhVien</p>
-                <p><strong>Họ tên:</strong> @Model.TenSinhVien</p>
-                <p><strong>Ngày sinh:</strong> @Model.NgaySinh</p>
-                <p><strong>Lớp:</strong> @Model.MaLopNavigation.TenLop</p>
-                <p><strong>Quê quán:</strong> @Model.MaQueNavigation.TenQue</p>
-                <p><strong>Phòng muốn thuê:</strong> @Model.MaPhongNavigation.TenPhong</p>
-            </div>
-            <div class="col-md-6">
-                <h3>Thêm hợp đồng mới</h3>
-                @TempData["DuyetYC"]
-                <form method="post" asp-action="DuyetYcThue">
-                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                    <input type="hidden" name="MaSV" value="@Model.MaSinhVien" />
-
-                    <div class="form-group">
-                        <label for="ngayBatDau">Ngày bắt đầu:</label>
-                        <input type="date" class="form-control" id="ngayBatDau" name="NgayBatDau" required />
-                    </div>
-
-                    <div class="form-group">
-                        <label for="ngayKetThuc">Ngày kết thúc:</label>
-                        <input type="date" class="form-control" id="ngayKetThuc" name="NgayKetThuc" required />
-                    </div>
-
-                    <div class="form-group">
-                        <label for="giaThue">Giá thuê: @Model.MaPhongNavigation.GiaPhong</label>
-                        <input type="hidden" class="form-control" id="giaThue" name="GiaThue" value="@Model.MaPhongNavigation.GiaPhong" required />
-                    </div>
-
-                    <div class="form-group">
-                        <label for="ghiChu">Ghi chú:</label>
-                        <textarea class="form-control" id="ghiChu" name="GhiChu"></textarea>
-                    </div>
-
-                    <button type="submit" class="btn btn-primary">Thêm hợp đồng</button>
-                </form>
-            </div>
-        </div>mm
-    </div>
-</div>
-
-*@

@@ -10716,11 +10716,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\WEBNHOM10.csproj",
+      "projectUniqueName": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\WEBNHOM10.csproj",
       "projectName": "WEBNHOM10",
-      "projectPath": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\WEBNHOM10.csproj",
+      "projectPath": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\WEBNHOM10.csproj",
       "packagesPath": "C:\\Users\\84377\\.nuget\\packages\\",
-      "outputPath": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\obj\\",
+      "outputPath": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

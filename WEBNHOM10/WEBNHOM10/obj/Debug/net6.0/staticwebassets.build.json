@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mfmd3K9sIM+9QlVWgvLarM8JFBhF4UlbHzBAjuMSNL4=",
+  "Hash": "5KiSeIdOd7MXWP60lA6ZrSBc15cJdPiE+SD11t+KRSA=",
   "Source": "WEBNHOM10",
   "BasePath": "_content/WEBNHOM10",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "WEBNHOM10\\wwwroot",
       "Source": "WEBNHOM10",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\obj\\Debug\\net6.0\\scopedcss\\bundle\\WEBNHOM10.styles.css",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\obj\\Debug\\net6.0\\scopedcss\\bundle\\WEBNHOM10.styles.css",
       "SourceId": "WEBNHOM10",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "WEBNHOM10.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\obj\\Debug\\net6.0\\scopedcss\\bundle\\WEBNHOM10.styles.css"
+      "OriginalItemSpec": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\obj\\Debug\\net6.0\\scopedcss\\bundle\\WEBNHOM10.styles.css"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WEBNHOM10.bundle.scp.css",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WEBNHOM10.bundle.scp.css",
       "SourceId": "WEBNHOM10",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "WEBNHOM10.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WEBNHOM10.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WEBNHOM10.bundle.scp.css"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\css\\site.css",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\favicon.ico",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -85,10 +85,469 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\banner1.jpg",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "BasePath": "_content/WEBNHOM10",
+      "RelativePath": "Images/banner1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\banner1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\banner2.jpg",
+      "SourceId": "WEBNHOM10",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "BasePath": "_content/WEBNHOM10",
+      "RelativePath": "Images/banner2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\banner2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\banner3.jpg",
+      "SourceId": "WEBNHOM10",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "BasePath": "_content/WEBNHOM10",
+      "RelativePath": "Images/banner3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\banner3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Phong\\anhdaidien1.jpg",
+      "SourceId": "WEBNHOM10",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "BasePath": "_content/WEBNHOM10",
+      "RelativePath": "Images/Phong/anhdaidien1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Phong\\anhdaidien1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Phong\\anhdaidien2.jpg",
+      "SourceId": "WEBNHOM10",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "BasePath": "_content/WEBNHOM10",
+      "RelativePath": "Images/Phong/anhdaidien2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Phong\\anhdaidien2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Phong\\anhdaidien3.jpg",
+      "SourceId": "WEBNHOM10",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "BasePath": "_content/WEBNHOM10",
+      "RelativePath": "Images/Phong/anhdaidien3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Phong\\anhdaidien3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Phong\\anhdaidien4.jpg",
+      "SourceId": "WEBNHOM10",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "BasePath": "_content/WEBNHOM10",
+      "RelativePath": "Images/Phong/anhdaidien4.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Phong\\anhdaidien4.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Phong\\anhdaidien5.jpg",
+      "SourceId": "WEBNHOM10",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "BasePath": "_content/WEBNHOM10",
+      "RelativePath": "Images/Phong/anhdaidien5.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Phong\\anhdaidien5.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Phong\\chitietp1_1.jpg",
+      "SourceId": "WEBNHOM10",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "BasePath": "_content/WEBNHOM10",
+      "RelativePath": "Images/Phong/chitietp1_1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Phong\\chitietp1_1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Phong\\chitietp2_1.jpg",
+      "SourceId": "WEBNHOM10",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "BasePath": "_content/WEBNHOM10",
+      "RelativePath": "Images/Phong/chitietp2_1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Phong\\chitietp2_1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Phong\\chitietp2_2.jpg",
+      "SourceId": "WEBNHOM10",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "BasePath": "_content/WEBNHOM10",
+      "RelativePath": "Images/Phong/chitietp2_2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Phong\\chitietp2_2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Phong\\chitietp2_3.jpg",
+      "SourceId": "WEBNHOM10",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "BasePath": "_content/WEBNHOM10",
+      "RelativePath": "Images/Phong/chitietp2_3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Phong\\chitietp2_3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Phong\\chitietp3_1.jpg",
+      "SourceId": "WEBNHOM10",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "BasePath": "_content/WEBNHOM10",
+      "RelativePath": "Images/Phong/chitietp3_1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Phong\\chitietp3_1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Phong\\chitietp3_2.jpg",
+      "SourceId": "WEBNHOM10",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "BasePath": "_content/WEBNHOM10",
+      "RelativePath": "Images/Phong/chitietp3_2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Phong\\chitietp3_2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Phong\\chitietp3_3.jpg",
+      "SourceId": "WEBNHOM10",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "BasePath": "_content/WEBNHOM10",
+      "RelativePath": "Images/Phong/chitietp3_3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Phong\\chitietp3_3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Phong\\chitietp3_4.jpg",
+      "SourceId": "WEBNHOM10",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "BasePath": "_content/WEBNHOM10",
+      "RelativePath": "Images/Phong/chitietp3_4.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Phong\\chitietp3_4.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Phong\\chitietp4_1.jpg",
+      "SourceId": "WEBNHOM10",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "BasePath": "_content/WEBNHOM10",
+      "RelativePath": "Images/Phong/chitietp4_1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Phong\\chitietp4_1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Phong\\chitietp4_2.jpg",
+      "SourceId": "WEBNHOM10",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "BasePath": "_content/WEBNHOM10",
+      "RelativePath": "Images/Phong/chitietp4_2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Phong\\chitietp4_2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Phong\\chitietp5_1.jpg",
+      "SourceId": "WEBNHOM10",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "BasePath": "_content/WEBNHOM10",
+      "RelativePath": "Images/Phong/chitietp5_1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Phong\\chitietp5_1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Phong\\chitietp5_2.jpg",
+      "SourceId": "WEBNHOM10",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "BasePath": "_content/WEBNHOM10",
+      "RelativePath": "Images/Phong/chitietp5_2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Phong\\chitietp5_2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\ThietBi\\ban_thietbi1.png",
+      "SourceId": "WEBNHOM10",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "BasePath": "_content/WEBNHOM10",
+      "RelativePath": "Images/ThietBi/ban_thietbi1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\ThietBi\\ban_thietbi1.png"
+    },
+    {
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\ThietBi\\ban_thietbi2.png",
+      "SourceId": "WEBNHOM10",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "BasePath": "_content/WEBNHOM10",
+      "RelativePath": "Images/ThietBi/ban_thietbi2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\ThietBi\\ban_thietbi2.png"
+    },
+    {
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\ThietBi\\ban_thietbi3.png",
+      "SourceId": "WEBNHOM10",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "BasePath": "_content/WEBNHOM10",
+      "RelativePath": "Images/ThietBi/ban_thietbi3.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\ThietBi\\ban_thietbi3.png"
+    },
+    {
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\ThietBi\\ban_thietbi4.png",
+      "SourceId": "WEBNHOM10",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "BasePath": "_content/WEBNHOM10",
+      "RelativePath": "Images/ThietBi/ban_thietbi4.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\ThietBi\\ban_thietbi4.png"
+    },
+    {
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\ThietBi\\tu_thietbi1.png",
+      "SourceId": "WEBNHOM10",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "BasePath": "_content/WEBNHOM10",
+      "RelativePath": "Images/ThietBi/tu_thietbi1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\ThietBi\\tu_thietbi1.png"
+    },
+    {
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\ThietBi\\tu_thietbi2.jpg",
+      "SourceId": "WEBNHOM10",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "BasePath": "_content/WEBNHOM10",
+      "RelativePath": "Images/ThietBi/tu_thietbi2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\ThietBi\\tu_thietbi2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\ThietBi\\tu_thietbi3.png",
+      "SourceId": "WEBNHOM10",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "BasePath": "_content/WEBNHOM10",
+      "RelativePath": "Images/ThietBi/tu_thietbi3.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\ThietBi\\tu_thietbi3.png"
+    },
+    {
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\js\\site.js",
+      "SourceId": "WEBNHOM10",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -102,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -119,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -136,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -153,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -170,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -187,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -204,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -221,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -238,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -255,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -272,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -289,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -306,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -323,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -340,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -357,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -374,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -391,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -408,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -425,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -442,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -459,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -476,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -493,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -510,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -527,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -544,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -561,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -578,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -595,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -612,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -629,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -646,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -663,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -680,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -697,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -714,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -731,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -748,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -765,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -782,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -799,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -816,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -833,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -850,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -867,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -884,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -901,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -918,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -935,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -952,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -969,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -986,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1003,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1020,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1037,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1054,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1071,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\css\\bootstrap.css",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "Nhom10/css/bootstrap.css",
       "AssetKind": "All",
@@ -1088,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\Nhom10\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\css\\font-awesome.min.css",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\css\\font-awesome.min.css",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "Nhom10/css/font-awesome.min.css",
       "AssetKind": "All",
@@ -1105,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\Nhom10\\css\\font-awesome.min.css"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\css\\responsive.css",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\css\\responsive.css",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "Nhom10/css/responsive.css",
       "AssetKind": "All",
@@ -1122,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\Nhom10\\css\\responsive.css"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\css\\style.css",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\css\\style.css",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "Nhom10/css/style.css",
       "AssetKind": "All",
@@ -1139,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\Nhom10\\css\\style.css"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\css\\style.css.map",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\css\\style.css.map",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "Nhom10/css/style.css.map",
       "AssetKind": "All",
@@ -1156,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\Nhom10\\css\\style.css.map"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\css\\style.scss",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\css\\style.scss",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "Nhom10/css/style.scss",
       "AssetKind": "All",
@@ -1173,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\Nhom10\\css\\style.scss"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\fonts\\fontawesome-webfont.ttf",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\fonts\\fontawesome-webfont.ttf",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "Nhom10/fonts/fontawesome-webfont.ttf",
       "AssetKind": "All",
@@ -1190,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\Nhom10\\fonts\\fontawesome-webfont.ttf"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\fonts\\fontawesome-webfont.woff",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\fonts\\fontawesome-webfont.woff",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "Nhom10/fonts/fontawesome-webfont.woff",
       "AssetKind": "All",
@@ -1207,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\Nhom10\\fonts\\fontawesome-webfont.woff"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\fonts\\fontawesome-webfont.woff2",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\fonts\\fontawesome-webfont.woff2",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "Nhom10/fonts/fontawesome-webfont.woff2",
       "AssetKind": "All",
@@ -1224,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\Nhom10\\fonts\\fontawesome-webfont.woff2"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\about-img.png",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\about-img.png",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "Nhom10/images/about-img.png",
       "AssetKind": "All",
@@ -1241,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\Nhom10\\images\\about-img.png"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\c1.jpg",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\c1.jpg",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "Nhom10/images/c1.jpg",
       "AssetKind": "All",
@@ -1258,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\Nhom10\\images\\c1.jpg"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\c2.jpg",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\c2.jpg",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "Nhom10/images/c2.jpg",
       "AssetKind": "All",
@@ -1275,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\Nhom10\\images\\c2.jpg"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\contact-img.jpg",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\contact-img.jpg",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "Nhom10/images/contact-img.jpg",
       "AssetKind": "All",
@@ -1292,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\Nhom10\\images\\contact-img.jpg"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\f1.png",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\f1.png",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "Nhom10/images/f1.png",
       "AssetKind": "All",
@@ -1309,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\Nhom10\\images\\f1.png"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\f2.png",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\f2.png",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "Nhom10/images/f2.png",
       "AssetKind": "All",
@@ -1326,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\Nhom10\\images\\f2.png"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\f3.png",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\f3.png",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "Nhom10/images/f3.png",
       "AssetKind": "All",
@@ -1343,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\Nhom10\\images\\f3.png"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\f4.png",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\f4.png",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "Nhom10/images/f4.png",
       "AssetKind": "All",
@@ -1360,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\Nhom10\\images\\f4.png"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\favicon.png",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\favicon.png",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "Nhom10/images/favicon.png",
       "AssetKind": "All",
@@ -1377,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\Nhom10\\images\\favicon.png"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\slider-img.png",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\slider-img.png",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "Nhom10/images/slider-img.png",
       "AssetKind": "All",
@@ -1394,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\Nhom10\\images\\slider-img.png"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\w1.png",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\w1.png",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "Nhom10/images/w1.png",
       "AssetKind": "All",
@@ -1411,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\Nhom10\\images\\w1.png"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\w2.png",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\w2.png",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "Nhom10/images/w2.png",
       "AssetKind": "All",
@@ -1428,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\Nhom10\\images\\w2.png"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\w3.png",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\w3.png",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "Nhom10/images/w3.png",
       "AssetKind": "All",
@@ -1445,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\Nhom10\\images\\w3.png"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\w4.png",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\w4.png",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "Nhom10/images/w4.png",
       "AssetKind": "All",
@@ -1462,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\Nhom10\\images\\w4.png"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\w5.png",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\w5.png",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "Nhom10/images/w5.png",
       "AssetKind": "All",
@@ -1479,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\Nhom10\\images\\w5.png"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\w6.png",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\w6.png",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "Nhom10/images/w6.png",
       "AssetKind": "All",
@@ -1496,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\Nhom10\\images\\w6.png"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\js\\bootstrap.js",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "Nhom10/js/bootstrap.js",
       "AssetKind": "All",
@@ -1513,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\Nhom10\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\js\\custom.js",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\js\\custom.js",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "Nhom10/js/custom.js",
       "AssetKind": "All",
@@ -1530,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\Nhom10\\js\\custom.js"
     },
     {
-      "Identity": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\js\\jquery-3.4.1.min.js",
+      "Identity": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\js\\jquery-3.4.1.min.js",
       "SourceId": "WEBNHOM10",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Ki2_Nam3\\LapTrinhWeb\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
       "BasePath": "_content/WEBNHOM10",
       "RelativePath": "Nhom10/js/jquery-3.4.1.min.js",
       "AssetKind": "All",

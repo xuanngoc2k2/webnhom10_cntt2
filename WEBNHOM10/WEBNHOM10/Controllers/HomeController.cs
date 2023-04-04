@@ -18,7 +18,8 @@ namespace WEBNHOM10.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            var lstp = db.Phongs.ToList();
+            return View(lstp);
         }
 
         public IActionResult Privacy()
@@ -85,7 +86,6 @@ namespace WEBNHOM10.Controllers
                     Console.WriteLine("TenLop: " + sinhVien.MaQue.ToString());
                     db.SinhViens.Add(sinhVien);
                     db.SaveChanges();
-                    TempData["Message"] = "Đã gửi yêu cầu !!";
                     return RedirectToAction("Index");
                 }
                 else 

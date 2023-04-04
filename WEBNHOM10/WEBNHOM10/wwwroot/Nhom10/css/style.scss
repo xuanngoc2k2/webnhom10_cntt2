@@ -11,6 +11,15 @@ $textCol: #1f1f1f;
   font-family: "Poppins", sans-serif;
 }
 
+#btn {
+    text-align: center;
+    color: blue;
+}
+
+#btn:hover{
+    opacity: 0.5;
+}
+
 @mixin hero_btn($col1, $col2, $pad1, $pad2, $bRadius) {
   display: inline-block;
   padding: $pad1 $pad2;

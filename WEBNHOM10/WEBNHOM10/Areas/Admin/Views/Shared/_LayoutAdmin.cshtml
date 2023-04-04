@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -60,7 +61,7 @@
                                 <a class="nav-link" href="#"> About </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#"> Quản lí yêu cầu thuê </a>
+                                <a class="nav-link" asp-action="QuanLyYeuCauThue" asp-controller="admin"> Quản lí yêu cầu thuê </a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Contact Us</a>

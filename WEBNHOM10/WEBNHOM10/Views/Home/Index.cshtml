@@ -2,8 +2,52 @@
     ViewData["Title"] = "Home Page";
     Layout = "_LayoutIndex";
 }
-
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+@model List<Phong>
+<div class="heading_container heading_center">
+    <h2>
+        Một số phòng
+    </h2>
+</div>
+@{
+    int i = 0;
+}
+<div class="row">
+    @foreach (var item in Model)
+    {
+        i = i + 1;
+        <div class="col-sm-6 col-xl-4">
+            <div class="box">
+                <a href="">
+                    <div class="img-box">
+                        <img src="../Images/Phong/@item.AnhDaiDienPhong" alt="">
+                    </div>
+                    <div class="detail-box">
+                        <h6>
+                            <b>Tên phòng:</b> @item.TenPhong
+                        </h6>
+                        <h6>
+                            <b>Giá:</b>
+                            <span>
+                                @item.GiaPhong
+                            </span>
+                        </h6>
+                    </div>
+                    <div class="new">
+                        <span>
+                            New
+                        </span>
+                    </div>
+                </a>
+            </div>
+        </div>
+        if (i == 3)
+        {
+            break;
+        }
+    }
+</div>
+<div class="btn-box">
+    <a href="">
+        View All
+    </a>
 </div>
