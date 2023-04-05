@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+z1Bi//qh84+pudyu5hAZyL2HbX+Qw2RB4JIa6zJ7kQF4QfYNnaR2XO3vwVGzyEdgS99rUWEtvPvU01+SC0b2w==",
+  "dgSpecHash": "cu6s0gZrdEZLDC4nFspg5sBEKAy8wKx3SWvSIanZ1cD/b5GB9U2BJ7HwYmNw3UqykNuxXqLThgrHzI4dkmeydQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\WEBNHOM10.csproj",
   "expectedPackageFiles": [
@@ -11,8 +11,6 @@
     "C:\\Users\\84377\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\84377\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",
     "C:\\Users\\84377\\.nuget\\packages\\messagepackanalyzer\\2.1.152\\messagepackanalyzer.2.1.152.nupkg.sha512",
-    "C:\\Users\\84377\\.nuget\\packages\\microsoft.aspnet.razor\\3.2.9\\microsoft.aspnet.razor.3.2.9.nupkg.sha512",
-    "C:\\Users\\84377\\.nuget\\packages\\microsoft.aspnet.webpages\\3.2.9\\microsoft.aspnet.webpages.3.2.9.nupkg.sha512",
     "C:\\Users\\84377\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.0\\microsoft.aspnetcore.razor.language.6.0.0.nupkg.sha512",
     "C:\\Users\\84377\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0\\microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
     "C:\\Users\\84377\\.nuget\\packages\\microsoft.build\\17.3.2\\microsoft.build.17.3.2.nupkg.sha512",
@@ -74,7 +72,6 @@
     "C:\\Users\\84377\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.templating\\6.0.13\\microsoft.visualstudio.web.codegeneration.templating.6.0.13.nupkg.sha512",
     "C:\\Users\\84377\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.utils\\6.0.13\\microsoft.visualstudio.web.codegeneration.utils.6.0.13.nupkg.sha512",
     "C:\\Users\\84377\\.nuget\\packages\\microsoft.visualstudio.web.codegenerators.mvc\\6.0.13\\microsoft.visualstudio.web.codegenerators.mvc.6.0.13.nupkg.sha512",
-    "C:\\Users\\84377\\.nuget\\packages\\microsoft.web.infrastructure\\1.0.0\\microsoft.web.infrastructure.1.0.0.nupkg.sha512",
     "C:\\Users\\84377\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\84377\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\84377\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
@@ -193,36 +190,5 @@
     "C:\\Users\\84377\\.nuget\\packages\\x.pagedlist\\8.4.7\\x.pagedlist.8.4.7.nupkg.sha512",
     "C:\\Users\\84377\\.nuget\\packages\\x.pagedlist.mvc.core\\8.4.7\\x.pagedlist.mvc.core.8.4.7.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Microsoft.AspNet.Razor 3.2.9' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
-      "libraryId": "Microsoft.AspNet.Razor",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Microsoft.AspNet.WebPages 3.2.9' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
-      "libraryId": "Microsoft.AspNet.WebPages",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Microsoft.Web.Infrastructure 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
-      "libraryId": "Microsoft.Web.Infrastructure",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  "logs": []
 }

@@ -33,7 +33,6 @@ namespace WEBNHOM10.Controllers
             ViewBag.MaPhong = new SelectList(db.Phongs.ToList(), "MaPhong", "TenPhong");
             return View();
         }
-
         [Route("guiyeucauthue")]
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -82,6 +81,7 @@ namespace WEBNHOM10.Controllers
                         sinhVien.MaQue = que.MaQue;
                         sinhVien.MaQueNavigation = que;
                     }
+                    Console.WriteLine(sinhVien.Anh);
                     sinhVien.TrangThai = 0;
                     Console.WriteLine("TenLop: " + sinhVien.MaQue.ToString());
                     db.SinhViens.Add(sinhVien);

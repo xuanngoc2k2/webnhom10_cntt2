@@ -56,16 +56,16 @@ namespace WEBNHOM10.Areas.Admin.Controllers
             return lst;
         }
         [HttpDelete("{masv}")]
-        public IActionResult XoaSinhVien(int masv)
+        public Boolean XoaSinhVien(int masv)
         {
             var sv = _context.SinhViens.FirstOrDefault(x => x.MaSinhVien == masv);
             if (sv == null)
             {
-                return NotFound();
+                return false;
             }
             _context.SinhViens.Remove(sv);
             _context.SaveChanges();
-            return Ok();
+            return true;
         }
     }
 }

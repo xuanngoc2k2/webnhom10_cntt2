@@ -6,7 +6,7 @@
     <WebStackScaffolding_ViewDialogWidth>650</WebStackScaffolding_ViewDialogWidth>
     <WebStackScaffolding_LayoutPageFile>~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml</WebStackScaffolding_LayoutPageFile>
     <WebStackScaffolding_IsLayoutPageSelected>True</WebStackScaffolding_IsLayoutPageSelected>
-    <WebStackScaffolding_IsPartialViewSelected>False</WebStackScaffolding_IsPartialViewSelected>
+    <WebStackScaffolding_IsPartialViewSelected>True</WebStackScaffolding_IsPartialViewSelected>
     <WebStackScaffolding_IsReferencingScriptLibrariesSelected>False</WebStackScaffolding_IsReferencingScriptLibrariesSelected>
     <WebStackScaffolding_DbContextTypeFullName>WEBNHOM10.Models.QlKtxContext</WebStackScaffolding_DbContextTypeFullName>
     <_SelectedScaffolderID>AreaScaffolder</_SelectedScaffolderID>

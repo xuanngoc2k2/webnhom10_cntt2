@@ -32,8 +32,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cWGVtSG9wRG9uZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/84377/Documents/GitHub/webnhom10_cntt2/WEBNHOM10/WEBNHOM10/Areas/Admin/Views/Admin/XoaYeuCau.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cWG9hWWV1Q2F1LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/84377/Documents/GitHub/webnhom10_cntt2/WEBNHOM10/WEBNHOM10/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/84377/Documents/GitHub/webnhom10_cntt2/WEBNHOM10/WEBNHOM10/Areas/Admin/Views/Shared/_PartialFter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9QYXJ0aWFsRnRlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/84377/Documents/GitHub/webnhom10_cntt2/WEBNHOM10/WEBNHOM10/Views/Home/GuiYeuCauThue.cshtml]

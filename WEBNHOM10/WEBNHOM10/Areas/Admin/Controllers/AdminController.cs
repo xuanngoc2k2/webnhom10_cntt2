@@ -90,16 +90,16 @@ namespace WEBNHOM10.Areas.Admin.Controllers
 
         [Route("xemhopdong")]
         [HttpGet]
-        public IActionResult XemHopDong(int maSv)
+        public IActionResult XemHopDong(int masv)
         {
             var sv = db.SinhViens
                 .Include(x => x.MaLopNavigation)
                 .Include(x => x.MaQueNavigation)
                 .Include(x => x.MaPhongNavigation)
                 .Include(x => x.MaHopDongNavigation)
-                .SingleOrDefault(x => x.MaSinhVien == maSv);
+                .SingleOrDefault(x => x.MaSinhVien == masv);
             ViewBag.sv = sv;
-            return View();
+            return View(sv);
         }
     }
 }

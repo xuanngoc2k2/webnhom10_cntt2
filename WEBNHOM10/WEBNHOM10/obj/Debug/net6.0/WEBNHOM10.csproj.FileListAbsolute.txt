@@ -311,11 +311,6 @@ C:\Users\84377\Documents\GitHub\webnhom10_cntt2\WEBNHOM10\WEBNHOM10\bin\Debug\ne
 C:\Users\84377\Documents\GitHub\webnhom10_cntt2\WEBNHOM10\WEBNHOM10\bin\Debug\net6.0\JetBrains.Annotations.dll
 C:\Users\84377\Documents\GitHub\webnhom10_cntt2\WEBNHOM10\WEBNHOM10\bin\Debug\net6.0\MessagePack.dll
 C:\Users\84377\Documents\GitHub\webnhom10_cntt2\WEBNHOM10\WEBNHOM10\bin\Debug\net6.0\MessagePack.Annotations.dll
-C:\Users\84377\Documents\GitHub\webnhom10_cntt2\WEBNHOM10\WEBNHOM10\bin\Debug\net6.0\System.Web.Razor.dll
-C:\Users\84377\Documents\GitHub\webnhom10_cntt2\WEBNHOM10\WEBNHOM10\bin\Debug\net6.0\System.Web.Helpers.dll
-C:\Users\84377\Documents\GitHub\webnhom10_cntt2\WEBNHOM10\WEBNHOM10\bin\Debug\net6.0\System.Web.WebPages.Deployment.dll
-C:\Users\84377\Documents\GitHub\webnhom10_cntt2\WEBNHOM10\WEBNHOM10\bin\Debug\net6.0\System.Web.WebPages.Razor.dll
-C:\Users\84377\Documents\GitHub\webnhom10_cntt2\WEBNHOM10\WEBNHOM10\bin\Debug\net6.0\System.Web.WebPages.dll
 C:\Users\84377\Documents\GitHub\webnhom10_cntt2\WEBNHOM10\WEBNHOM10\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\84377\Documents\GitHub\webnhom10_cntt2\WEBNHOM10\WEBNHOM10\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\84377\Documents\GitHub\webnhom10_cntt2\WEBNHOM10\WEBNHOM10\bin\Debug\net6.0\Microsoft.Build.dll
@@ -370,7 +365,6 @@ C:\Users\84377\Documents\GitHub\webnhom10_cntt2\WEBNHOM10\WEBNHOM10\bin\Debug\ne
 C:\Users\84377\Documents\GitHub\webnhom10_cntt2\WEBNHOM10\WEBNHOM10\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
 C:\Users\84377\Documents\GitHub\webnhom10_cntt2\WEBNHOM10\WEBNHOM10\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 C:\Users\84377\Documents\GitHub\webnhom10_cntt2\WEBNHOM10\WEBNHOM10\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
-C:\Users\84377\Documents\GitHub\webnhom10_cntt2\WEBNHOM10\WEBNHOM10\bin\Debug\net6.0\Microsoft.Web.Infrastructure.dll
 C:\Users\84377\Documents\GitHub\webnhom10_cntt2\WEBNHOM10\WEBNHOM10\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\84377\Documents\GitHub\webnhom10_cntt2\WEBNHOM10\WEBNHOM10\bin\Debug\net6.0\Mono.TextTemplating.dll
 C:\Users\84377\Documents\GitHub\webnhom10_cntt2\WEBNHOM10\WEBNHOM10\bin\Debug\net6.0\Newtonsoft.Json.dll

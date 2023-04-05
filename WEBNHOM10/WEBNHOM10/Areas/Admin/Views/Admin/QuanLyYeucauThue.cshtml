@@ -41,7 +41,8 @@
                         <td>@Html.DisplayFor(modelItem => item.TrangThai)</td>
                         <td id="btn">
                             <a type="button" asp-action="DuyetYcThue" asp-route-maSV="@item.MaSinhVien">Duyệt <i class="fa-solid fa-check"></i></a>
-                            <a onclick="XoaYc(@item.MaSinhVien,'@item.TenSinhVien')" >Xóa<i class="fa-solid fa-trash"></i></a>
+                            @*<a type="button" asp-action="XoaYeuCau" asp-route-masv="@item.MaSinhVien">Xóa <i class="fa-solid fa-check"></i></a>*@
+                            <a style="cursor: pointer" onclick="XoaYc(@item.MaSinhVien,'@item.TenSinhVien')" >Xóa<i class="fa-solid fa-trash"></i></a>
                             <a type="button" asp-action="XemHopDong" asp-route-masv="@item.MaSinhVien">Xem</a>
                         </td>
                     </tr>
@@ -53,20 +54,25 @@
 </div>
 <script>
     function XoaYc(masv,tensv){
-        alert("SSS");
         if (confirm(`Bạn có chắc chắn muốn xóa yêu cầu của sinh viên ${tensv} ?`) == true) {
             $.ajax({
-                url: 'https://localhost:7133/api/sinhviens/?masv=' + masv,
+                url: 'https://localhost:7133/api/sinhviens/' + masv,
                 method: 'DELETE',
                 contentType: 'json',
                 dataType: 'json',
                 error: function (response) {
                     alert("Xóa không thành công");
+                    console.log(response);
                 },
-                success: function (reponse) {
-                    alert("Xóa thành công");
-                    RenderYc();
-                    console.log(reponse);
+                success: function (r) {
+                    if(r == true){
+                        alert("Xóa thành công");
+                        location.reload();
+                    }
+                    else{
+                        alert("Xóa không thành công");
+                    }
+                    console.log(r);
                 }
             });
         }
@@ -82,29 +88,34 @@
             },
             success: function (data) {
                 const len = data.length;
-                console.log(data);
                 let table = '';
                 for (var i = 0; i < len; ++i) {
                     table = table +
                         `<tr>
-                                <td>${data[i].maSinhVien}</td>
-                                <td>${data[i].tenSinhVien}</td>
-                                <td>${data[i].ngaySinh}</td>
-                                <td>${data[i].gioiTinh}</td>
-                                <td>${data[i].soDienThoai}</td>
-                                <td>${data[i].maPhong}</td>
-                                <td>${data[i].maLop}</td>
-                                <td>${data[i].maQue}</td>
-                                <td>${data[i].soCccd}</td>
-                                <td> ${data[i].trangThai}</td>
-                                <td id = "btn" >
-                                    <a type="button" asp - action="DuyetYcThue" asp - route - maSV="${data[i].maSinhVien}" > Duyệt < i class="fa-solid fa-check" > </i></a >
-                                    <a onclick = "XoaYc(${data[i].maSinhVien},'${data[i].tenSinhVien}')" > Xóa < i class="fa-solid fa-trash" > </i></a >
-                                    <a type="button" asp - action="XemHopDong" asp - route - masv="${data[i].maSinhVien}" > Xem < /a>
-                                </td>
-                            </tr>`
+                        <td>${data[i].maSinhVien}</td>
+                        <td>${data[i].tenSinhVien}</td>
+                        <td>${data[i].ngaySinh}</td>
+                        <td>${data[i].gioiTinh}</td>
+                        <td>${data[i].soDienThoai}</td>
+                        <td>${data[i].maPhong}</td>
+                        <td>${data[i].maLop}</td>
+                        <td>${data[i].maQue}</td>
+                        <td>${data[i].soCccd}</td>
+                        <td>${data[i].trangThai}</td>
+                        <td id="btn">
+                            <a type="button" asp-action="DuyetYcThue" asp-route-maSV="${data[i].maSinhVien}">
+                                Duyệt<i class="fa-solid fa-check"></i>
+                            </a>
+                            <a style="cursor: pointer" onclick="XoaYc(${data[i].maSinhVien},'${data[i].tenSinhVien}')">
+                                Xóa<i class="fa-solid fa-trash"></i>
+                            </a>
+                            <a type="button" asp-action="XemHopDong" asp-route-masv="${data[i].maSinhVien}">
+                                Xem
+                            </a>
+                        </td>
+                    </tr>`;
                 }
-                document.getElementById('All').innerHTML = table;
+                $('#All').html(table);
             }
         })
     }
