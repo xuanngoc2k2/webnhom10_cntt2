@@ -1,0 +1,85 @@
+﻿@model WEBNHOM10.Models.SinhVien
+
+<h4>SinhVien</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="GuiYeuCau">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="MaSinhVien" class="control-label"></label>
+                <input asp-for="MaSinhVien" class="form-control" />
+                <span asp-validation-for="MaSinhVien" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TenSinhVien" class="control-label"></label>
+                <input asp-for="TenSinhVien" class="form-control" />
+                <span asp-validation-for="TenSinhVien" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NgaySinh" class="control-label"></label>
+                <input asp-for="NgaySinh" class="form-control" />
+                <span asp-validation-for="NgaySinh" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="GioiTinh" class="control-label"></label>
+                <input asp-for="GioiTinh" class="form-control" />
+                <span asp-validation-for="GioiTinh" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SoDienThoat" class="control-label"></label>
+                <input asp-for="SoDienThoat" class="form-control" />
+                <span asp-validation-for="SoDienThoat" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MaHopDong" class="control-label"></label>
+                <select asp-for="MaHopDong" class ="form-control" asp-items="ViewBag.MaHopDong"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="MaPhong" class="control-label"></label>
+                <select asp-for="MaPhong" class ="form-control" asp-items="ViewBag.MaPhong"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="MaLop" class="control-label"></label>
+                <select asp-for="MaLop" class ="form-control" asp-items="ViewBag.MaLop"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="MaQue" class="control-label"></label>
+                <select asp-for="MaQue" class ="form-control" asp-items="ViewBag.MaQue"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="TaiKhoan" class="control-label"></label>
+                <input asp-for="TaiKhoan" class="form-control" />
+                <span asp-validation-for="TaiKhoan" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MatKhau" class="control-label"></label>
+                <input asp-for="MatKhau" class="form-control" />
+                <span asp-validation-for="MatKhau" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Anh" class="control-label"></label>
+                <input asp-for="Anh" class="form-control" />
+                <span asp-validation-for="Anh" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SoCccd" class="control-label"></label>
+                <input asp-for="SoCccd" class="form-control" />
+                <span asp-validation-for="SoCccd" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TrangThai" class="control-label"></label>
+                <input asp-for="TrangThai" class="form-control" />
+                <span asp-validation-for="TrangThai" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

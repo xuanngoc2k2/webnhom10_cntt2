@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Drawing;
 
 namespace WEBNHOM10.Models;
 
@@ -55,4 +57,7 @@ public partial class SinhVien
     public virtual Phong? MaPhongNavigation { get; set; }
 
     public virtual Que? MaQueNavigation { get; set; }
+
+    [NotMapped]
+    public IFormFile? Image { get; set; }
 }

@@ -1,8 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System.Diagnostics;
+using System.Drawing;
 using WEBNHOM10.Models;
 
 namespace WEBNHOM10.Controllers
@@ -10,10 +12,12 @@ namespace WEBNHOM10.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly IWebHostEnvironment _webHost;
         QlKtxContext db = new QlKtxContext();
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger,IWebHostEnvironment webHost)
         {
             _logger = logger;
+            _webHost = webHost;
         }
 
         public IActionResult Index()
@@ -21,7 +25,6 @@ namespace WEBNHOM10.Controllers
             var lstp = db.Phongs.ToList();
             return View(lstp);
         }
-
         public IActionResult Privacy()
         {
             return View();
@@ -38,12 +41,23 @@ namespace WEBNHOM10.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult GuiYeuCauThue(SinhVien sinhVien)
         {
+            Console.WriteLine("S" + sinhVien.Image.FileName.ToString());
             TempData["Message"] = "";
-            if(ModelState.IsValid)
+            string uniqueFilename = null;
+            if(sinhVien.Image != null)
+            {
+                string uploadFoler = Path.Combine(_webHost.WebRootPath, "images");
+                uniqueFilename = Guid.NewGuid().ToString() + "_" + sinhVien.Image.FileName;
+                string filePath = Path.Combine(uploadFoler, uniqueFilename);
+                using (var fileStream = new FileStream(filePath, FileMode.Create)){
+                    sinhVien.Image.CopyTo(fileStream);
+                }
+            }
+            if (ModelState.IsValid)
             {
                 if (!db.SinhViens.Any(x => x.MaSinhVien == sinhVien.MaSinhVien))
                 {
-                    if (db.SinhViens.FirstOrDefault(tk => tk.TaiKhoan == sinhVien.TaiKhoan)!=null)
+                    if (db.SinhViens.FirstOrDefault(tk => tk.TaiKhoan == sinhVien.TaiKhoan) != null)
                     {
                         TempData["Message"] = "Tên tài khoản đã tồn tại !!";
                         ViewBag.MaPhong = new SelectList(db.Phongs.ToList(), "MaPhong", "TenPhong");
@@ -53,7 +67,7 @@ namespace WEBNHOM10.Controllers
                     var que = db.Ques.FirstOrDefault(q => q.TenQue == sinhVien.MaQueNavigation.TenQue);
                     if (lop == null)
                     {
-                        var malop = db.Lops.OrderByDescending(c=>c.MaLop).FirstOrDefault();
+                        var malop = db.Lops.OrderByDescending(c => c.MaLop).FirstOrDefault();
                         int nextMaLop = malop.MaLop == null ? 1 : malop.MaLop + 1;
                         var newlop = new Lop() { MaLop = nextMaLop, TenLop = sinhVien.MaLopNavigation.TenLop };
                         db.Lops.Add(newlop);
@@ -81,14 +95,13 @@ namespace WEBNHOM10.Controllers
                         sinhVien.MaQue = que.MaQue;
                         sinhVien.MaQueNavigation = que;
                     }
-                    Console.WriteLine(sinhVien.Anh);
                     sinhVien.TrangThai = 0;
                     Console.WriteLine("TenLop: " + sinhVien.MaQue.ToString());
                     db.SinhViens.Add(sinhVien);
                     db.SaveChanges();
                     return RedirectToAction("Index");
                 }
-                else 
+                else
                 {
                     TempData["Message"] = "Đã tồn tại mã sinh viên này";
                     ViewBag.MaPhong = new SelectList(db.Phongs.ToList(), "MaPhong", "TenPhong");
