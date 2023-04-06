@@ -16,14 +16,7 @@
                 <input asp-for="MaSinhVien" class="form-control" />
                 <span asp-validation-for="MaSinhVien" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="Image" class="control-label"></label>
-                <div class="custom-file">
-                        <input asp-for="Image" class="custom-file-input" id="FLFrontImage" />
-                    <label class="custom-file-label" for="FLFrontImage">Chọn ảnh</label>
-                </div>
-                <span asp-validation-for="Image" class="text-danger"></span>
-            </div>
+            
             <div class="form-group">
                 <label asp-for="TenSinhVien" class="control-label"></label>
                 <input asp-for="TenSinhVien" class="form-control" />
@@ -74,6 +67,14 @@
                 <input asp-for="SoCccd" class="form-control" />
                 <span asp-validation-for="SoCccd" class="text-danger"></span>
             </div>
+                <div class="form-group">
+                    <label asp-for="Image" class="control-label"></label>
+                    <div class="custom-file">
+                        <input asp-for="Image" class="custom-file-input" id="FLFrontImage" />
+                        <label class="custom-file-label" for="FLFrontImage">Chọn ảnh</label>
+                    </div>
+                    <span asp-validation-for="Image" class="text-danger"></span>
+                </div>
             <div class="form-group">
                 <input type="submit" value="Gửi yêu cầu" class="btn btn-primary" />
             </div>
