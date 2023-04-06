@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\WEBNHOM10.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\8234db76-4dd5-482f-b3f8-106068ce08c2_chitietp1_1.jpg",
+      "PackagePath": "staticwebassets\\Images\\8234db76-4dd5-482f-b3f8-106068ce08c2_chitietp1_1.jpg"
+    },
+    {
       "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Phong\\anhdaidien1.jpg",
       "PackagePath": "staticwebassets\\Images\\Phong\\anhdaidien1.jpg"
     },
@@ -71,6 +75,30 @@
     {
       "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Phong\\chitietp5_2.jpg",
       "PackagePath": "staticwebassets\\Images\\Phong\\chitietp5_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Sinhvien\\18a5a194-1123-4be9-9c0d-df852e197f24_anhdaidien5.jpg",
+      "PackagePath": "staticwebassets\\Images\\Sinhvien\\18a5a194-1123-4be9-9c0d-df852e197f24_anhdaidien5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Sinhvien\\2837835e-6e54-4732-a105-0ee6b7d5bd2a_chitietp1_1.jpg",
+      "PackagePath": "staticwebassets\\Images\\Sinhvien\\2837835e-6e54-4732-a105-0ee6b7d5bd2a_chitietp1_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Sinhvien\\4a5bb66d-34b1-4714-8665-13461b53ce01_anhdaidien3.jpg",
+      "PackagePath": "staticwebassets\\Images\\Sinhvien\\4a5bb66d-34b1-4714-8665-13461b53ce01_anhdaidien3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Sinhvien\\4dc2ebaa-8fc1-4ef6-93f6-1d7580bdee55_chitietp1_1.jpg",
+      "PackagePath": "staticwebassets\\Images\\Sinhvien\\4dc2ebaa-8fc1-4ef6-93f6-1d7580bdee55_chitietp1_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Sinhvien\\6c266b13-6c4a-4c3c-ab8f-b0a92d70dcc5_chitietp5_2.jpg",
+      "PackagePath": "staticwebassets\\Images\\Sinhvien\\6c266b13-6c4a-4c3c-ab8f-b0a92d70dcc5_chitietp5_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Sinhvien\\83040f88-a23e-4f51-a7c7-f9d57da6191c_anhdaidien4.jpg",
+      "PackagePath": "staticwebassets\\Images\\Sinhvien\\83040f88-a23e-4f51-a7c7-f9d57da6191c_anhdaidien4.jpg"
     },
     {
       "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\ThietBi\\ban_thietbi1.png",

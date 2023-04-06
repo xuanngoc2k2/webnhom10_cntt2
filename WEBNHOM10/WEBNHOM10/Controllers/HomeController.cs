@@ -41,22 +41,13 @@ namespace WEBNHOM10.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult GuiYeuCauThue(SinhVien sinhVien)
         {
-            Console.WriteLine("S" + sinhVien.Image.FileName.ToString());
             TempData["Message"] = "";
-            string uniqueFilename = null;
-            if(sinhVien.Image != null)
-            {
-                string uploadFoler = Path.Combine(_webHost.WebRootPath, "images");
-                uniqueFilename = Guid.NewGuid().ToString() + "_" + sinhVien.Image.FileName;
-                string filePath = Path.Combine(uploadFoler, uniqueFilename);
-                using (var fileStream = new FileStream(filePath, FileMode.Create)){
-                    sinhVien.Image.CopyTo(fileStream);
-                }
-            }
+          
             if (ModelState.IsValid)
             {
                 if (!db.SinhViens.Any(x => x.MaSinhVien == sinhVien.MaSinhVien))
                 {
+
                     if (db.SinhViens.FirstOrDefault(tk => tk.TaiKhoan == sinhVien.TaiKhoan) != null)
                     {
                         TempData["Message"] = "Tên tài khoản đã tồn tại !!";
@@ -94,6 +85,18 @@ namespace WEBNHOM10.Controllers
                     {
                         sinhVien.MaQue = que.MaQue;
                         sinhVien.MaQueNavigation = que;
+                    }
+                    string uniqueFilename = null;
+                    if (sinhVien.Image != null)
+                    {
+                        string uploadFoler = Path.Combine(_webHost.WebRootPath, "images/SinhVien/");
+                        uniqueFilename = DateTime.Now.ToString("yyyyMMddHHmmssfff") + "_" + sinhVien.Image.FileName;
+                        string filePath = Path.Combine(uploadFoler, uniqueFilename);
+                        using (var fileStream = new FileStream(filePath, FileMode.Create))
+                        {
+                            sinhVien.Image.CopyTo(fileStream);
+                        }
+                        sinhVien.Anh = uniqueFilename;
                     }
                     sinhVien.TrangThai = 0;
                     Console.WriteLine("TenLop: " + sinhVien.MaQue.ToString());
