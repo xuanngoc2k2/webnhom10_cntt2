@@ -1,495 +1,507 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WEBNHOM10.bundle.scp.css",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WEBNHOM10.bundle.scp.css",
       "PackagePath": "staticwebassets\\WEBNHOM10.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\8234db76-4dd5-482f-b3f8-106068ce08c2_chitietp1_1.jpg",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\8234db76-4dd5-482f-b3f8-106068ce08c2_chitietp1_1.jpg",
       "PackagePath": "staticwebassets\\Images\\8234db76-4dd5-482f-b3f8-106068ce08c2_chitietp1_1.jpg"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Phong\\anhdaidien1.jpg",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Phong\\anhdaidien1.jpg",
       "PackagePath": "staticwebassets\\Images\\Phong\\anhdaidien1.jpg"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Phong\\anhdaidien2.jpg",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Phong\\anhdaidien2.jpg",
       "PackagePath": "staticwebassets\\Images\\Phong\\anhdaidien2.jpg"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Phong\\anhdaidien3.jpg",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Phong\\anhdaidien3.jpg",
       "PackagePath": "staticwebassets\\Images\\Phong\\anhdaidien3.jpg"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Phong\\anhdaidien4.jpg",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Phong\\anhdaidien4.jpg",
       "PackagePath": "staticwebassets\\Images\\Phong\\anhdaidien4.jpg"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Phong\\anhdaidien5.jpg",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Phong\\anhdaidien5.jpg",
       "PackagePath": "staticwebassets\\Images\\Phong\\anhdaidien5.jpg"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Phong\\chitietp1_1.jpg",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Phong\\chitietp1_1.jpg",
       "PackagePath": "staticwebassets\\Images\\Phong\\chitietp1_1.jpg"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Phong\\chitietp2_1.jpg",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Phong\\chitietp2_1.jpg",
       "PackagePath": "staticwebassets\\Images\\Phong\\chitietp2_1.jpg"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Phong\\chitietp2_2.jpg",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Phong\\chitietp2_2.jpg",
       "PackagePath": "staticwebassets\\Images\\Phong\\chitietp2_2.jpg"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Phong\\chitietp2_3.jpg",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Phong\\chitietp2_3.jpg",
       "PackagePath": "staticwebassets\\Images\\Phong\\chitietp2_3.jpg"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Phong\\chitietp3_1.jpg",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Phong\\chitietp3_1.jpg",
       "PackagePath": "staticwebassets\\Images\\Phong\\chitietp3_1.jpg"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Phong\\chitietp3_2.jpg",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Phong\\chitietp3_2.jpg",
       "PackagePath": "staticwebassets\\Images\\Phong\\chitietp3_2.jpg"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Phong\\chitietp3_3.jpg",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Phong\\chitietp3_3.jpg",
       "PackagePath": "staticwebassets\\Images\\Phong\\chitietp3_3.jpg"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Phong\\chitietp3_4.jpg",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Phong\\chitietp3_4.jpg",
       "PackagePath": "staticwebassets\\Images\\Phong\\chitietp3_4.jpg"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Phong\\chitietp4_1.jpg",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Phong\\chitietp4_1.jpg",
       "PackagePath": "staticwebassets\\Images\\Phong\\chitietp4_1.jpg"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Phong\\chitietp4_2.jpg",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Phong\\chitietp4_2.jpg",
       "PackagePath": "staticwebassets\\Images\\Phong\\chitietp4_2.jpg"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Phong\\chitietp5_1.jpg",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Phong\\chitietp5_1.jpg",
       "PackagePath": "staticwebassets\\Images\\Phong\\chitietp5_1.jpg"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Phong\\chitietp5_2.jpg",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Phong\\chitietp5_2.jpg",
       "PackagePath": "staticwebassets\\Images\\Phong\\chitietp5_2.jpg"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Sinhvien\\18a5a194-1123-4be9-9c0d-df852e197f24_anhdaidien5.jpg",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Sinhvien\\18a5a194-1123-4be9-9c0d-df852e197f24_anhdaidien5.jpg",
       "PackagePath": "staticwebassets\\Images\\Sinhvien\\18a5a194-1123-4be9-9c0d-df852e197f24_anhdaidien5.jpg"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Sinhvien\\2837835e-6e54-4732-a105-0ee6b7d5bd2a_chitietp1_1.jpg",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Sinhvien\\20230406071258536_chitietp3_4.jpg",
+      "PackagePath": "staticwebassets\\Images\\Sinhvien\\20230406071258536_chitietp3_4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Sinhvien\\20230406144247724_19d2fbba84a58e6e7be43492ffc17b6e.jpg",
+      "PackagePath": "staticwebassets\\Images\\Sinhvien\\20230406144247724_19d2fbba84a58e6e7be43492ffc17b6e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Sinhvien\\20230406144734255_19d2fbba84a58e6e7be43492ffc17b6e.jpg",
+      "PackagePath": "staticwebassets\\Images\\Sinhvien\\20230406144734255_19d2fbba84a58e6e7be43492ffc17b6e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Sinhvien\\2837835e-6e54-4732-a105-0ee6b7d5bd2a_chitietp1_1.jpg",
       "PackagePath": "staticwebassets\\Images\\Sinhvien\\2837835e-6e54-4732-a105-0ee6b7d5bd2a_chitietp1_1.jpg"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Sinhvien\\4a5bb66d-34b1-4714-8665-13461b53ce01_anhdaidien3.jpg",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Sinhvien\\4a5bb66d-34b1-4714-8665-13461b53ce01_anhdaidien3.jpg",
       "PackagePath": "staticwebassets\\Images\\Sinhvien\\4a5bb66d-34b1-4714-8665-13461b53ce01_anhdaidien3.jpg"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Sinhvien\\4dc2ebaa-8fc1-4ef6-93f6-1d7580bdee55_chitietp1_1.jpg",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Sinhvien\\4dc2ebaa-8fc1-4ef6-93f6-1d7580bdee55_chitietp1_1.jpg",
       "PackagePath": "staticwebassets\\Images\\Sinhvien\\4dc2ebaa-8fc1-4ef6-93f6-1d7580bdee55_chitietp1_1.jpg"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Sinhvien\\6c266b13-6c4a-4c3c-ab8f-b0a92d70dcc5_chitietp5_2.jpg",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Sinhvien\\6c266b13-6c4a-4c3c-ab8f-b0a92d70dcc5_chitietp5_2.jpg",
       "PackagePath": "staticwebassets\\Images\\Sinhvien\\6c266b13-6c4a-4c3c-ab8f-b0a92d70dcc5_chitietp5_2.jpg"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Sinhvien\\83040f88-a23e-4f51-a7c7-f9d57da6191c_anhdaidien4.jpg",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Sinhvien\\83040f88-a23e-4f51-a7c7-f9d57da6191c_anhdaidien4.jpg",
       "PackagePath": "staticwebassets\\Images\\Sinhvien\\83040f88-a23e-4f51-a7c7-f9d57da6191c_anhdaidien4.jpg"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\ThietBi\\ban_thietbi1.png",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\ThietBi\\ban_thietbi1.png",
       "PackagePath": "staticwebassets\\Images\\ThietBi\\ban_thietbi1.png"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\ThietBi\\ban_thietbi2.png",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\ThietBi\\ban_thietbi2.png",
       "PackagePath": "staticwebassets\\Images\\ThietBi\\ban_thietbi2.png"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\ThietBi\\ban_thietbi3.png",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\ThietBi\\ban_thietbi3.png",
       "PackagePath": "staticwebassets\\Images\\ThietBi\\ban_thietbi3.png"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\ThietBi\\ban_thietbi4.png",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\ThietBi\\ban_thietbi4.png",
       "PackagePath": "staticwebassets\\Images\\ThietBi\\ban_thietbi4.png"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\ThietBi\\tu_thietbi1.png",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\ThietBi\\tu_thietbi1.png",
       "PackagePath": "staticwebassets\\Images\\ThietBi\\tu_thietbi1.png"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\ThietBi\\tu_thietbi2.jpg",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\ThietBi\\tu_thietbi2.jpg",
       "PackagePath": "staticwebassets\\Images\\ThietBi\\tu_thietbi2.jpg"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\ThietBi\\tu_thietbi3.png",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\ThietBi\\tu_thietbi3.png",
       "PackagePath": "staticwebassets\\Images\\ThietBi\\tu_thietbi3.png"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\banner1.jpg",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\banner1.jpg",
       "PackagePath": "staticwebassets\\Images\\banner1.jpg"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\banner2.jpg",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\banner2.jpg",
       "PackagePath": "staticwebassets\\Images\\banner2.jpg"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\banner3.jpg",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\banner3.jpg",
       "PackagePath": "staticwebassets\\Images\\banner3.jpg"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\css\\bootstrap.css",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\Nhom10\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\css\\font-awesome.min.css",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\css\\font-awesome.min.css",
       "PackagePath": "staticwebassets\\Nhom10\\css\\font-awesome.min.css"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\css\\responsive.css",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\css\\responsive.css",
       "PackagePath": "staticwebassets\\Nhom10\\css\\responsive.css"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\css\\style.css",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\css\\style.css",
       "PackagePath": "staticwebassets\\Nhom10\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\css\\style.css.map",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\css\\style.css.map",
       "PackagePath": "staticwebassets\\Nhom10\\css\\style.css.map"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\css\\style.scss",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\css\\style.scss",
       "PackagePath": "staticwebassets\\Nhom10\\css\\style.scss"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\fonts\\fontawesome-webfont.ttf",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\fonts\\fontawesome-webfont.ttf",
       "PackagePath": "staticwebassets\\Nhom10\\fonts\\fontawesome-webfont.ttf"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\fonts\\fontawesome-webfont.woff",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\fonts\\fontawesome-webfont.woff",
       "PackagePath": "staticwebassets\\Nhom10\\fonts\\fontawesome-webfont.woff"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\fonts\\fontawesome-webfont.woff2",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\fonts\\fontawesome-webfont.woff2",
       "PackagePath": "staticwebassets\\Nhom10\\fonts\\fontawesome-webfont.woff2"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\about-img.png",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\about-img.png",
       "PackagePath": "staticwebassets\\Nhom10\\images\\about-img.png"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\c1.jpg",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\c1.jpg",
       "PackagePath": "staticwebassets\\Nhom10\\images\\c1.jpg"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\c2.jpg",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\c2.jpg",
       "PackagePath": "staticwebassets\\Nhom10\\images\\c2.jpg"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\contact-img.jpg",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\contact-img.jpg",
       "PackagePath": "staticwebassets\\Nhom10\\images\\contact-img.jpg"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\f1.png",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\f1.png",
       "PackagePath": "staticwebassets\\Nhom10\\images\\f1.png"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\f2.png",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\f2.png",
       "PackagePath": "staticwebassets\\Nhom10\\images\\f2.png"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\f3.png",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\f3.png",
       "PackagePath": "staticwebassets\\Nhom10\\images\\f3.png"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\f4.png",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\f4.png",
       "PackagePath": "staticwebassets\\Nhom10\\images\\f4.png"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\favicon.png",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\favicon.png",
       "PackagePath": "staticwebassets\\Nhom10\\images\\favicon.png"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\slider-img.png",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\slider-img.png",
       "PackagePath": "staticwebassets\\Nhom10\\images\\slider-img.png"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\w1.png",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\w1.png",
       "PackagePath": "staticwebassets\\Nhom10\\images\\w1.png"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\w2.png",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\w2.png",
       "PackagePath": "staticwebassets\\Nhom10\\images\\w2.png"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\w3.png",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\w3.png",
       "PackagePath": "staticwebassets\\Nhom10\\images\\w3.png"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\w4.png",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\w4.png",
       "PackagePath": "staticwebassets\\Nhom10\\images\\w4.png"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\w5.png",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\w5.png",
       "PackagePath": "staticwebassets\\Nhom10\\images\\w5.png"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\w6.png",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\images\\w6.png",
       "PackagePath": "staticwebassets\\Nhom10\\images\\w6.png"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\js\\bootstrap.js",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\Nhom10\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\js\\custom.js",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\js\\custom.js",
       "PackagePath": "staticwebassets\\Nhom10\\js\\custom.js"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\js\\jquery-3.4.1.min.js",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Nhom10\\js\\jquery-3.4.1.min.js",
       "PackagePath": "staticwebassets\\Nhom10\\js\\jquery-3.4.1.min.js"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\84377\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
