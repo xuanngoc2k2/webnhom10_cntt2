@@ -90,3 +90,10 @@ else{
     <h1 style="color: red;text-align: center">@TempData["Message"]</h1>
     <a asp-action="Index" >Quay lại trang chủ</a>
 }
+<script>
+    document.getElementById("FLFrontImage").onchange = function () {
+        var fileName = this.value.split("\\").pop();
+        var label = document.querySelector(".custom-file-label");
+        label.innerHTML = fileName;
+    };
+</script>
