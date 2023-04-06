@@ -1,86 +1,92 @@
-﻿@model WEBNHOM10.Models.SinhVien;
+﻿@model WEBNHOM10.Models.SVModel;
 @{
     ViewData["Title"] = "GuiYeuCauThue";
     Layout = "_LayoutNarBar";
 }
-
-<h1>Gửi yêu cầu thuê phòng</h>
-<hr />
-<h3 style="color: red">@TempData["Message"]</h3>
-<div class="row">
-    <div class="col-md-12">
-            <form asp-action="GuiYeuCauThue" method="post" enctype="multipart/form-data">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="MaSinhVien" class="control-label"></label>
-                <input asp-for="MaSinhVien" class="form-control" />
-                <span asp-validation-for="MaSinhVien" class="text-danger"></span>
-            </div>
-            
-            <div class="form-group">
-                <label asp-for="TenSinhVien" class="control-label"></label>
-                <input asp-for="TenSinhVien" class="form-control" />
-                <span asp-validation-for="TenSinhVien" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="NgaySinh" class="control-label"></label>
-                <input asp-for="NgaySinh" class="form-control" />
-                <span asp-validation-for="NgaySinh" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="GioiTinh" class="control-label"></label>
-                <input asp-for="GioiTinh" class="form-control" />
-                <span asp-validation-for="GioiTinh" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="MaPhong" class="control-label"></label>
-                <select asp-for="MaPhong" class="form-control" 
-                    asp-items="ViewBag.MaPhong"></select>
-            </div>
-            <div class="form-group">
-                <label asp-for="MaLopNavigation.TenLop" class="control-label"></label>
-                <input asp-for="MaLopNavigation.TenLop" class="form-control" />
-                <span asp-validation-for="MaLopNavigation.TenLop" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="MaQueNavigation.TenQue" class="control-label"></label>
-                <input asp-for="MaQueNavigation.TenQue" class="form-control" />
-                <span asp-validation-for="MaQueNavigation.TenQue" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="SoDienThoat" class="control-label"></label>
-                <input asp-for="SoDienThoat" class="form-control" />
-                <span asp-validation-for="SoDienThoat" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="TaiKhoan" class="control-label"></label>
-                <input asp-for="TaiKhoan" class="form-control" />
-                <span asp-validation-for="TaiKhoan" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="MatKhau" class="control-label"></label>
-                <input asp-for="MatKhau" class="form-control" />
-                <span asp-validation-for="MatKhau" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="SoCccd" class="control-label"></label>
-                <input asp-for="SoCccd" class="form-control" />
-                <span asp-validation-for="SoCccd" class="text-danger"></span>
-            </div>
+@if (TempData["Message"] == "")
+{
+    <h1>Gửi yêu cầu thuê phòng</h1>
+    <hr />
+    <h3 style="color: red">@TempData["Message"]</h3>
+    <div class="row">
+        <div class="col-md-12">
+                <form asp-action="GuiYeuCauThue" method="post" enctype="multipart/form-data">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                 <div class="form-group">
-                    <label asp-for="Image" class="control-label"></label>
-                    <div class="custom-file">
-                        <input asp-for="Image" class="custom-file-input" id="FLFrontImage" />
-                        <label class="custom-file-label" for="FLFrontImage">Chọn ảnh</label>
-                    </div>
-                    <span asp-validation-for="Image" class="text-danger"></span>
+                    <label asp-for="MaSinhVien" class="control-label"></label>
+                    <input asp-for="MaSinhVien" class="form-control" />
+                    <span asp-validation-for="MaSinhVien" class="text-danger"></span>
                 </div>
-            <div class="form-group">
-                <input type="submit" value="Gửi yêu cầu" class="btn btn-primary" />
-            </div>
-        </form>
+            
+                <div class="form-group">
+                    <label asp-for="TenSinhVien" class="control-label"></label>
+                    <input asp-for="TenSinhVien" class="form-control" />
+                    <span asp-validation-for="TenSinhVien" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="NgaySinh" class="control-label"></label>
+                    <input asp-for="NgaySinh" class="form-control" />
+                    <span asp-validation-for="NgaySinh" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="GioiTinh" class="control-label"></label>
+                    <input asp-for="GioiTinh" class="form-control" />
+                    <span asp-validation-for="GioiTinh" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="MaPhong" class="control-label"></label>
+                    <select asp-for="MaPhong" class="form-control" 
+                        asp-items="ViewBag.MaPhong"></select>
+                </div>
+                <div class="form-group">
+                    <label asp-for="MaLopNavigation.TenLop" class="control-label"></label>
+                    <input asp-for="MaLopNavigation.TenLop" class="form-control" />
+                    <span asp-validation-for="MaLopNavigation.TenLop" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="MaQueNavigation.TenQue" class="control-label"></label>
+                    <input asp-for="MaQueNavigation.TenQue" class="form-control" />
+                    <span asp-validation-for="MaQueNavigation.TenQue" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="SoDienThoat" class="control-label"></label>
+                    <input asp-for="SoDienThoat" class="form-control" />
+                    <span asp-validation-for="SoDienThoat" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="TaiKhoan" class="control-label"></label>
+                    <input asp-for="TaiKhoan" class="form-control" />
+                    <span asp-validation-for="TaiKhoan" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="MatKhau" class="control-label"></label>
+                    <input asp-for="MatKhau" class="form-control" />
+                    <span asp-validation-for="MatKhau" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="SoCccd" class="control-label"></label>
+                    <input asp-for="SoCccd" class="form-control" />
+                    <span asp-validation-for="SoCccd" class="text-danger"></span>
+                </div>
+                    <div class="form-group">
+                        <label asp-for="Image" class="control-label"></label>
+                        <div class="custom-file">
+                            <input asp-for="Image" class="custom-file-input" id="FLFrontImage" />
+                            <label class="custom-file-label" for="FLFrontImage">Chọn ảnh</label>
+                        </div>
+                        <span asp-validation-for="Image" class="text-danger"></span>
+                    </div>
+                <div class="form-group">
+                    <input type="submit" value="Gửi yêu cầu" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
     </div>
-</div>
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+    <div>
+        <a asp-action="Index">Back to List</a>
+    </div>
+}
+else{
+    <h1 style="color: red;text-align: center">@TempData["Message"]</h1>
+    <a asp-action="Index" >Quay lại trang chủ</a>
+}

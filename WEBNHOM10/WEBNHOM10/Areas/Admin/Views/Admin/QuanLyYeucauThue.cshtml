@@ -4,16 +4,34 @@
     ViewData["Title"] = "QuanLyYeucauThue";
     Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
 }
+<h2 style="text-align:center;" >
+    Quản lí yêu cầu thuê
+</h2>
+<div style="margin-left: 60px;">
+    <button class="btn-active" style="
+                                border: none;
+                                background-color: aqua;
+                                padding: 5px 20px;
+                                ">All</button>
+    <button style="
+    background-color: #fff;
+    border: solid 1px #030303;
+    padding: 5px 10px;">Đã duyệt
+    </button>
+    <button style="
+    background-color: #fff;
+    border: solid 1px #030303;
+    padding: 5px 10px;">Chưa duyệt
+    </button>
+</div>
 <div class="heading_container heading_center">
-    <h2>
-        Quản lí yêu cầu thuê
-    </h2>
-    </div>
+    
     <div class="row">
         <div class="table-responsive">
             <table class="table table-striped">
                 <thead>
                   <tr>
+                    <th></th>
                     <th>Mã sinh vên</th>
                     <th>Tên sinh viên</th>
                     <th>Ngày sinh</th>
@@ -23,12 +41,12 @@
                     <th>Lớp</th>
                     <th>Quê</th>
                     <th>CCCD/CMND</th>
-                    <th>Trạng thái</th>
                   </tr>
                 </thead>
                 <tbody id="All">
                   @foreach (var item in Model) {
                     <tr>
+                        <td><img style="width: 150px;" src="@Url.Content("../images/SinhVien/"+item.Anh)" /></td>
                         <td>@Html.DisplayFor(modelItem => item.MaSinhVien)</td>
                         <td>@Html.DisplayFor(modelItem => item.TenSinhVien)</td>
                         <td>@Html.DisplayFor(modelItem => item.NgaySinh)</td>
@@ -38,12 +56,21 @@
                         <td>@Html.DisplayFor(modelItem => item.MaLopNavigation.TenLop)</td>
                         <td>@Html.DisplayFor(modelItem => item.MaQueNavigation.TenQue)</td>
                         <td>@Html.DisplayFor(modelItem => item.SoCccd)</td>
-                        <td>@Html.DisplayFor(modelItem => item.TrangThai)</td>
                         <td id="btn">
-                            <a type="button" asp-action="DuyetYcThue" asp-route-maSV="@item.MaSinhVien">Duyệt <i class="fa-solid fa-check"></i></a>
-                            @*<a type="button" asp-action="XoaYeuCau" asp-route-masv="@item.MaSinhVien">Xóa <i class="fa-solid fa-check"></i></a>*@
-                            <a style="cursor: pointer" onclick="XoaYc(@item.MaSinhVien,'@item.TenSinhVien')" >Xóa<i class="fa-solid fa-trash"></i></a>
-                            <a type="button" asp-action="XemHopDong" asp-route-masv="@item.MaSinhVien">Xem</a>
+                            @if (item.TrangThai == 1)
+                            {<a style="cursor: pointer;color: blue; padding:10px;" onclick="DuyetYC('@item.TenSinhVien')">Duyệt <i class="fa-solid fa-check"></i></a>}
+                            else
+                                {
+                                    <a style="color: blue;padding:10px;" type="button" asp-action="DuyetYcThue" asp-route-maSV="@item.MaSinhVien">Duyệt <i class="fa-solid fa-check"></i></a>
+                                }
+                                <a style="cursor: pointer; color: blue;padding:10px;" onclick="XoaYc(@item.MaSinhVien,'@item.TenSinhVien',@item.TrangThai)">Xóa<i class="fa-solid fa-trash"></i></a>
+                            @if (item.TrangThai == 1)
+                            {
+                                    <a style="cursor: pointer; color: blue;padding:10px;" onclick="XemHD('@item.TenSinhVien')">Xem</a>
+                            }
+                            else{
+                                    <a style="color: blue;padding:10px;" type="button" asp-action="XemHopDong" asp-route-masv="@item.MaSinhVien">Xem</a>
+                            }
                         </td>
                     </tr>
                    }
@@ -53,70 +80,39 @@
     </div>
 </div>
 <script>
-    function XoaYc(masv,tensv){
-        if (confirm(`Bạn có chắc chắn muốn xóa yêu cầu của sinh viên ${tensv} ?`) == true) {
-            $.ajax({
-                url: 'https://localhost:7133/api/sinhviens/' + masv,
-                method: 'DELETE',
-                contentType: 'json',
-                dataType: 'json',
-                error: function (response) {
-                    alert("Xóa không thành công");
-                    console.log(response);
-                },
-                success: function (r) {
-                    if(r == true){
-                        alert("Xóa thành công");
-                        location.reload();
-                    }
-                    else{
-                        alert("Xóa không thành công");
-                    }
-                    console.log(r);
-                }
-            });
-        }
+    function DuyetYC(tensv){
+        alert("Sinh viên này đã được duyệt");
     }
-    function RenderYc() {
-        $.ajax({
-            url: 'https://localhost:7133/api/sinhviens',
-            method: 'GET',
-            contentType: 'json',
-            dataType: 'json',
-            error: function (r) {
-
-            },
-            success: function (data) {
-                const len = data.length;
-                let table = '';
-                for (var i = 0; i < len; ++i) {
-                    table = table +
-                        `<tr>
-                        <td>${data[i].maSinhVien}</td>
-                        <td>${data[i].tenSinhVien}</td>
-                        <td>${data[i].ngaySinh}</td>
-                        <td>${data[i].gioiTinh}</td>
-                        <td>${data[i].soDienThoai}</td>
-                        <td>${data[i].maPhong}</td>
-                        <td>${data[i].maLop}</td>
-                        <td>${data[i].maQue}</td>
-                        <td>${data[i].soCccd}</td>
-                        <td>${data[i].trangThai}</td>
-                        <td id="btn">
-                            <a type="button" asp-action="DuyetYcThue" asp-route-maSV="${data[i].maSinhVien}">
-                                Duyệt<i class="fa-solid fa-check"></i>
-                            </a>
-                            <a style="cursor: pointer" onclick="XoaYc(${data[i].maSinhVien},'${data[i].tenSinhVien}')">
-                                Xóa<i class="fa-solid fa-trash"></i>
-                            </a>
-                            <a type="button" asp-action="XemHopDong" asp-route-masv="${data[i].maSinhVien}">
-                                Xem
-                            </a>
-                        </td>
-                    </tr>`;
-                }
-                $('#All').html(table);
+    function XemHD(tensv){
+        alert("Sinh viên này chưa có hợp đồng");
+    }
+    function XoaYc(masv,tensv,tt){
+        if(tt==1){
+            alert("Không thể xóa yêu cầu của sinh viên này !!");
+        }
+        else{
+            if (confirm(`Bạn có chắc chắn muốn xóa yêu cầu của sinh viên ${tensv} ?`) == true) {
+                $.ajax({
+                    url: 'https://localhost:7133/api/sinhviens/' + masv,
+                    method: 'DELETE',
+                    contentType: 'json',
+                    dataType: 'json',
+                    error: function (response) {
+                        alert("Xóa không thành công");
+                        console.log(response);
+                    },
+                    success: function (r) {
+                        if (r == true) {
+                            alert("Xóa thành công");
+                            location.reload();
+                        }
+                        else {
+                            alert("Xóa không thành công");
+                        }
+                        console.log(r);
+                    }
+                });
             }
-        })
+        }
     }
 </script>

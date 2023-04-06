@@ -4,25 +4,39 @@
     ViewData["Title"] = "XemHopDong";
     Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
 }
-
-<!-- hiển thị thông tin sinh viên -->
-<h2>Thông tin sinh viên</h2>
-<p>Tên: @Model.TenSinhVien</p>
-<p>Lớp: @Model.MaLopNavigation.TenLop</p>
-<p>Quê quán: @Model.MaQueNavigation.TenQue</p>
-<p>Phòng: @Model.MaPhongNavigation.TenPhong</p>
-
-<!-- hiển thị thông tin hợp đồng -->
-<h2>Thông tin hợp đồng</h2>
-@if (Model.MaHopDongNavigation == null)
-{
-    <p>Chưa có hợp đồng</p>
-}
-else
-{
-    <p>Số hợp đồng: @Model.MaHopDongNavigation.MaHopDong</p>
-    <p>Ngày kí: @Model.MaHopDongNavigation.NgayKi.ToShortDateString()</p>
-    <p>Ngày hết hạn: @Model.MaHopDongNavigation.NgayHetHan.ToShortDateString()</p>
-    <p>Số tháng: @Convert.ToInt32((Model.MaHopDongNavigation.NgayHetHan - Model.MaHopDongNavigation.NgayKi).TotalDays / 30)</p>
-}
-
+<div class="row">
+    <div class="col-md-7">
+        <!-- hiển thị thông tin sinh viên -->
+        <h2>Thông tin sinh viên</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <img style="max-width: 200px;" src="../../images/SinhVien/@Model.Anh"/>
+            </div>
+            <div class="col-md-8">
+                <p>MSV: @Model.MaSinhVien</p>
+                <p>Tên: @Model.TenSinhVien</p>
+                <p>Ngày sinh: @Model.NgaySinh</p>
+                <p>Lớp: @Model.MaLopNavigation.TenLop</p>
+                <p>Số CCCD/CMND: @Model.SoCccd</p>
+                <p>Giới tính: @Model.GioiTinh</p>
+                <p>Quê quán: @Model.MaQueNavigation.TenQue</p>
+                <p>Phòng: @Model.MaPhongNavigation.TenPhong</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-5">
+        <!-- hiển thị thông tin hợp đồng -->
+        <h2>Thông tin hợp đồng</h2>
+        @if (Model.MaHopDongNavigation == null)
+        {
+            <p>Chưa có hợp đồng</p>
+        }
+        else
+        {
+            <p>Số hợp đồng: @Model.MaHopDongNavigation.MaHopDong</p>
+            <p>Ngày kí: @Model.MaHopDongNavigation.NgayKi.ToShortDateString()</p>
+            <p>Ngày hết hạn: @Model.MaHopDongNavigation.NgayHetHan.ToShortDateString()</p>
+            <p>Số tháng: @Convert.ToInt32((Model.MaHopDongNavigation.NgayHetHan - Model.MaHopDongNavigation.NgayKi).TotalDays / 30)</p>
+        }
+    </div>
+</div>
