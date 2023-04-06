@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WEBNHOM10.Models;
+using X.PagedList;
 
 namespace WEBNHOM10.Areas.Admin.Controllers
 {
@@ -17,16 +18,18 @@ namespace WEBNHOM10.Areas.Admin.Controllers
             return View();
         }
         [Route("quanliycthue")]
-        public IActionResult QuanLyYeucauThue()
+        public IActionResult QuanLyYeucauThue(int?page)
         {
+            int pagesize = 10;
+            int pagenumber = page == null || page < 0 ? 1 : page.Value;
             var lstSinhvien = db.SinhViens
                 .Include(x=>x.MaPhongNavigation)
                 .Include(x=>x.MaLopNavigation)
                 .Include(x=>x.MaQueNavigation)
                 .ToList();
-            return View(lstSinhvien);
+            PagedList<SinhVien> lst = new PagedList<SinhVien>(lstSinhvien, pagenumber, pagesize);
+            return View(lst);
         }
-
         [Route("duyetycthue")]
         [HttpGet]
         public IActionResult DuyetYcThue(int maSV)
@@ -100,6 +103,36 @@ namespace WEBNHOM10.Areas.Admin.Controllers
                 .SingleOrDefault(x => x.MaSinhVien == masv);
             ViewBag.sv = sv;
             return View(sv);
+        }
+        [Route("yeucaudaduyet")]
+        [HttpGet]
+        public IActionResult YeuCauDaDuyet(int?page)
+        {
+            int pagesize = 10;
+            int pagenumber = page == null || page < 0 ? 1 : page.Value;
+            var sv = db.SinhViens
+                .Where(x=>x.TrangThai==1)
+                .Include(x => x.MaLopNavigation)
+                .Include(x => x.MaQueNavigation)
+                .Include(x => x.MaPhongNavigation)
+                .Include(x => x.MaHopDongNavigation);
+            PagedList<SinhVien> lst = new PagedList<SinhVien>(sv, pagenumber, pagesize);
+            return View(lst);
+        }
+        [Route("yeucauchuaduyet")]
+        [HttpGet]
+        public IActionResult YeuCauChuaDuyet(int?page)
+        {
+            int pagesize = 10;
+            int pagenumber = page == null || page < 0 ? 1 : page.Value;
+            var sv = db.SinhViens
+                .Where(x=>x.TrangThai==0)
+                .Include(x => x.MaLopNavigation)
+                .Include(x => x.MaQueNavigation)
+                .Include(x => x.MaPhongNavigation)
+                .Include(x => x.MaHopDongNavigation);
+            PagedList<SinhVien> lst = new PagedList<SinhVien>(sv, pagenumber, pagesize);
+            return View(lst);
         }
     }
 }

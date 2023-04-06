@@ -1,4 +1,6 @@
-﻿@model IEnumerable<WEBNHOM10.Models.SinhVien>
+﻿@*@model IEnumerable<WEBNHOM10.Models.SinhVien>*@
+@using X.PagedList.Mvc.Core;
+@model X.PagedList.IPagedList<WEBNHOM10.Models.SinhVien>;
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 @{
     ViewData["Title"] = "QuanLyYeucauThue";
@@ -8,21 +10,22 @@
     Quản lí yêu cầu thuê
 </h2>
 <div style="margin-left: 60px;">
-    <button class="btn-active" style="
+    <a type="button" class="btn-active" style="
                                 border: none;
                                 background-color: aqua;
                                 padding: 5px 20px;
-                                ">All</button>
-    <button style="
+                                ">All</a>
+    <a type="button" asp-action="yeucaudaduyet" style="
     background-color: #fff;
     border: solid 1px #030303;
     padding: 5px 10px;">Đã duyệt
-    </button>
-    <button style="
+    </a>
+    <a asp-action="yeucauchuaduyet" type="button" style="
     background-color: #fff;
     border: solid 1px #030303;
-    padding: 5px 10px;">Chưa duyệt
-    </button>
+    padding: 5px 10px;">
+        Chưa duyệt
+    </a>
 </div>
 <div class="heading_container heading_center">
     
@@ -46,7 +49,7 @@
                 <tbody id="All">
                   @foreach (var item in Model) {
                     <tr>
-                        <td><img style="width: 150px;" src="@Url.Content("../images/SinhVien/"+item.Anh)" /></td>
+                        <td><img style="width: 150px;" src="@Url.Content("../../images/SinhVien/"+item.Anh)" /></td>
                         <td>@Html.DisplayFor(modelItem => item.MaSinhVien)</td>
                         <td>@Html.DisplayFor(modelItem => item.TenSinhVien)</td>
                         <td>@Html.DisplayFor(modelItem => item.NgaySinh)</td>
@@ -66,11 +69,11 @@
                                 <a style="cursor: pointer; color: blue;padding:10px;" onclick="XoaYc(@item.MaSinhVien,'@item.TenSinhVien',@item.TrangThai)">Xóa<i class="fa-solid fa-trash"></i></a>
                             @if (item.TrangThai == 1)
                             {
-                                    <a style="cursor: pointer; color: blue;padding:10px;" onclick="XemHD('@item.TenSinhVien')">Xem</a>
-                            }
-                            else{
                                     <a style="color: blue;padding:10px;" type="button" asp-action="XemHopDong" asp-route-masv="@item.MaSinhVien">Xem</a>
                             }
+                            else{
+                                    <a style="cursor: pointer; color: blue;padding:10px;" onclick="XemHD('@item.TenSinhVien')">Xem</a>
+                                }
                         </td>
                     </tr>
                    }
@@ -79,6 +82,41 @@
           </div>
     </div>
 </div>
+@Html.PagedListPager(Model,page=>Url.Action("quanliycthue",new {page=page}))
+<style>
+    .pagination {
+        display: inline-block;
+        padding-left: 60px;
+        margin: 20px 0;
+        border-radius: 4px;
+    }
+
+        .pagination li {
+            display: inline;
+            margin-right: 5px;
+        }
+
+            .pagination li a {
+                color: #428bca;
+                background-color: #fff;
+                border: 1px solid #ddd;
+                padding: 5px 10px;
+                border-radius: 4px;
+            }
+
+            .pagination li.active a {
+                color: #fff;
+                background-color: #428bca;
+                border-color: #428bca;
+            }
+
+            .pagination li.disabled a {
+                color: #ccc;
+                cursor: not-allowed;
+                background-color: #fff;
+                border-color: #ddd;
+            }
+</style>
 <script>
     function DuyetYC(tensv){
         alert("Sinh viên này đã được duyệt");
