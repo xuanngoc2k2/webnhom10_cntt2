@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zqwQY4AOlLS08Jd33ANQu4f2cqVLcuyGfUuUvbs6Vmo=",
+  "Hash": "sD05i26QxhfCkxmr2PvdaSHTavjdjqznwnlQU3mtyj0=",
   "Source": "WEBNHOM10",
   "BasePath": "_content/WEBNHOM10",
   "Mode": "Default",
@@ -508,6 +508,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\Sinhvien\\20230406144734255_19d2fbba84a58e6e7be43492ffc17b6e.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Sinhvien\\20230406145608036_912269.jpg",
+      "SourceId": "WEBNHOM10",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\",
+      "BasePath": "_content/WEBNHOM10",
+      "RelativePath": "Images/Sinhvien/20230406145608036_912269.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Sinhvien\\20230406145608036_912269.jpg"
     },
     {
       "Identity": "C:\\Users\\Hello\\Dropbox\\PC\\Documents\\GitHub\\webnhom10_cntt2\\WEBNHOM10\\WEBNHOM10\\wwwroot\\Images\\Sinhvien\\2837835e-6e54-4732-a105-0ee6b7d5bd2a_chitietp1_1.jpg",

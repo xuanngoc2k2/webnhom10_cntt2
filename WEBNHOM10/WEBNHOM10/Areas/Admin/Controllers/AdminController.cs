@@ -101,5 +101,12 @@ namespace WEBNHOM10.Areas.Admin.Controllers
             ViewBag.sv = sv;
             return View(sv);
         }
+
+        [Route("thongtinhoadon")]
+        public IActionResult ThongTinHoaDon()
+        {
+            var lsHoaDon = db.HoaDons.ToList();
+            return View(lsHoaDon);
+        }
     }
 }
