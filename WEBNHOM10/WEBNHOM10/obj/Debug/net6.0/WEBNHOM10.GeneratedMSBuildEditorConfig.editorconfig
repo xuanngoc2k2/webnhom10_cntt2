@@ -9,85 +9,97 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WEBNHOM10
 build_property.RootNamespace = WEBNHOM10
-build_property.ProjectDir = C:\Users\84377\Documents\GitHub\webnhom10_cntt2\WEBNHOM10\WEBNHOM10\
+build_property.ProjectDir = C:\Users\ADMIN\Documents\GitHub\webnhom10_cntt2\WEBNHOM10\WEBNHOM10\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\84377\Documents\GitHub\webnhom10_cntt2\WEBNHOM10\WEBNHOM10
+build_property.MSBuildProjectDirectory = C:\Users\ADMIN\Documents\GitHub\webnhom10_cntt2\WEBNHOM10\WEBNHOM10
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/84377/Documents/GitHub/webnhom10_cntt2/WEBNHOM10/WEBNHOM10/Areas/Admin/Views/Admin/DuyetYcThue.cshtml]
+[C:/Users/ADMIN/Documents/GitHub/webnhom10_cntt2/WEBNHOM10/WEBNHOM10/Areas/Admin/Views/Admin/DanhSachSinhVien.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cRGFuaFNhY2hTaW5oVmllbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Documents/GitHub/webnhom10_cntt2/WEBNHOM10/WEBNHOM10/Areas/Admin/Views/Admin/DuyetYcThue.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cRHV5ZXRZY1RodWUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/84377/Documents/GitHub/webnhom10_cntt2/WEBNHOM10/WEBNHOM10/Areas/Admin/Views/Admin/Index.cshtml]
+[C:/Users/ADMIN/Documents/GitHub/webnhom10_cntt2/WEBNHOM10/WEBNHOM10/Areas/Admin/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/84377/Documents/GitHub/webnhom10_cntt2/WEBNHOM10/WEBNHOM10/Areas/Admin/Views/Admin/QuanLyYeucauThue.cshtml]
+[C:/Users/ADMIN/Documents/GitHub/webnhom10_cntt2/WEBNHOM10/WEBNHOM10/Areas/Admin/Views/Admin/QuanLyYeucauThue.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cUXVhbkx5WWV1Y2F1VGh1ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/84377/Documents/GitHub/webnhom10_cntt2/WEBNHOM10/WEBNHOM10/Areas/Admin/Views/Admin/XemHopDong.cshtml]
+[C:/Users/ADMIN/Documents/GitHub/webnhom10_cntt2/WEBNHOM10/WEBNHOM10/Areas/Admin/Views/Admin/SuaSinhVien.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cU3VhU2luaFZpZW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Documents/GitHub/webnhom10_cntt2/WEBNHOM10/WEBNHOM10/Areas/Admin/Views/Admin/XemHopDong.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cWGVtSG9wRG9uZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/84377/Documents/GitHub/webnhom10_cntt2/WEBNHOM10/WEBNHOM10/Areas/Admin/Views/Admin/XoaYeuCau.cshtml]
+[C:/Users/ADMIN/Documents/GitHub/webnhom10_cntt2/WEBNHOM10/WEBNHOM10/Areas/Admin/Views/Admin/XoaSinhVien.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cWG9hU2luaFZpZW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Documents/GitHub/webnhom10_cntt2/WEBNHOM10/WEBNHOM10/Areas/Admin/Views/Admin/XoaYeuCau.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cWG9hWWV1Q2F1LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/84377/Documents/GitHub/webnhom10_cntt2/WEBNHOM10/WEBNHOM10/Areas/Admin/Views/Admin/YeuCauChuaDuyet.cshtml]
+[C:/Users/ADMIN/Documents/GitHub/webnhom10_cntt2/WEBNHOM10/WEBNHOM10/Areas/Admin/Views/Admin/YeuCauChuaDuyet.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cWWV1Q2F1Q2h1YUR1eWV0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/84377/Documents/GitHub/webnhom10_cntt2/WEBNHOM10/WEBNHOM10/Areas/Admin/Views/Admin/YeuCauDaDuyet.cshtml]
+[C:/Users/ADMIN/Documents/GitHub/webnhom10_cntt2/WEBNHOM10/WEBNHOM10/Areas/Admin/Views/Admin/YeuCauDaDuyet.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cWWV1Q2F1RGFEdXlldC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/84377/Documents/GitHub/webnhom10_cntt2/WEBNHOM10/WEBNHOM10/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml]
+[C:/Users/ADMIN/Documents/GitHub/webnhom10_cntt2/WEBNHOM10/WEBNHOM10/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/84377/Documents/GitHub/webnhom10_cntt2/WEBNHOM10/WEBNHOM10/Areas/Admin/Views/Shared/_PartialFter.cshtml]
+[C:/Users/ADMIN/Documents/GitHub/webnhom10_cntt2/WEBNHOM10/WEBNHOM10/Areas/Admin/Views/Shared/_PartialFter.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9QYXJ0aWFsRnRlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/84377/Documents/GitHub/webnhom10_cntt2/WEBNHOM10/WEBNHOM10/Views/Home/GuiYeuCauThue.cshtml]
+[C:/Users/ADMIN/Documents/GitHub/webnhom10_cntt2/WEBNHOM10/WEBNHOM10/Views/Home/GuiYeuCauThue.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxHdWlZZXVDYXVUaHVlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/84377/Documents/GitHub/webnhom10_cntt2/WEBNHOM10/WEBNHOM10/Views/Home/Index.cshtml]
+[C:/Users/ADMIN/Documents/GitHub/webnhom10_cntt2/WEBNHOM10/WEBNHOM10/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/84377/Documents/GitHub/webnhom10_cntt2/WEBNHOM10/WEBNHOM10/Views/Home/Privacy.cshtml]
+[C:/Users/ADMIN/Documents/GitHub/webnhom10_cntt2/WEBNHOM10/WEBNHOM10/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/84377/Documents/GitHub/webnhom10_cntt2/WEBNHOM10/WEBNHOM10/Views/Shared/Error.cshtml]
+[C:/Users/ADMIN/Documents/GitHub/webnhom10_cntt2/WEBNHOM10/WEBNHOM10/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/84377/Documents/GitHub/webnhom10_cntt2/WEBNHOM10/WEBNHOM10/Views/Shared/_LayoutIndex.cshtml]
+[C:/Users/ADMIN/Documents/GitHub/webnhom10_cntt2/WEBNHOM10/WEBNHOM10/Views/Shared/_LayoutIndex.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/84377/Documents/GitHub/webnhom10_cntt2/WEBNHOM10/WEBNHOM10/Views/Shared/_LayoutNarBar.cshtml]
+[C:/Users/ADMIN/Documents/GitHub/webnhom10_cntt2/WEBNHOM10/WEBNHOM10/Views/Shared/_LayoutNarBar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXROYXJCYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/84377/Documents/GitHub/webnhom10_cntt2/WEBNHOM10/WEBNHOM10/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/ADMIN/Documents/GitHub/webnhom10_cntt2/WEBNHOM10/WEBNHOM10/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/84377/Documents/GitHub/webnhom10_cntt2/WEBNHOM10/WEBNHOM10/Views/_ViewImports.cshtml]
+[C:/Users/ADMIN/Documents/GitHub/webnhom10_cntt2/WEBNHOM10/WEBNHOM10/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/84377/Documents/GitHub/webnhom10_cntt2/WEBNHOM10/WEBNHOM10/Views/_ViewStart.cshtml]
+[C:/Users/ADMIN/Documents/GitHub/webnhom10_cntt2/WEBNHOM10/WEBNHOM10/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/84377/Documents/GitHub/webnhom10_cntt2/WEBNHOM10/WEBNHOM10/Views/Shared/_Layout.cshtml]
+[C:/Users/ADMIN/Documents/GitHub/webnhom10_cntt2/WEBNHOM10/WEBNHOM10/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-tqkweqgcmp

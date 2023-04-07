@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using WEBNHOM10.Models;
 using X.PagedList;
@@ -134,5 +135,78 @@ namespace WEBNHOM10.Areas.Admin.Controllers
             PagedList<SinhVien> lst = new PagedList<SinhVien>(sv, pagenumber, pagesize);
             return View(lst);
         }
+        [Route("DanhSachSinhVien")]
+        public ActionResult DanhSachSinhVien(int? page)
+        {
+            int pageSize = 8;
+            int pageNumber = page == null || page < 0 ? 1 : page.Value;
+
+            var listSinhVien = db.SinhViens.AsNoTracking().OrderBy(x => x.TenSinhVien)
+            .Include(x => x.MaPhongNavigation)
+            .Include(x => x.MaLopNavigation)
+            .Include(x => x.MaQueNavigation);
+
+            PagedList<SinhVien> lst = new PagedList<SinhVien>(listSinhVien, pageNumber, pageSize);
+            return View(lst);
+        }
+        [Route("SuaSinhVien")]
+        [HttpGet]
+        public ActionResult SuaSinhVien(int id)
+        {
+            ViewBag.MaPhong = new SelectList(db.Phongs.ToList(), "MaPhong", "TenPhong");
+            ViewBag.MaQue = new SelectList(db.Ques.ToList(), "MaQue", "TenQue");
+            ViewBag.MaLop = new SelectList(db.Lops.ToList(), "MaLop", "TenLop");
+            var sinhVien = db.SinhViens.Find(id);
+
+            return View(sinhVien);
+        }
+        // POST: SinhVienControllers/Edit/5
+        [Route("SuaSinhVien")]
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult SuaSinhVien(SinhVien sinhVien)
+        {
+            try
+            {
+                db.Entry(sinhVien).State = EntityState.Modified;
+                db.SaveChanges();
+
+                return RedirectToAction("DanhSachSinhVien");
+            }
+            catch
+            {
+                return View(sinhVien);
+            }
+        }
+
+        // GET: SinhVienControllers/Delete/5
+        [Route("XoaSinhVien")]
+        [HttpGet]
+        public ActionResult XoaSinhVien(int id)
+        {
+            var sinhVien = db.SinhViens
+                .Include(x => x.MaLopNavigation)
+                .Include(x => x.MaQueNavigation)
+                .Include(x => x.MaPhongNavigation)
+                .Include(x => x.MaHopDongNavigation)
+                .SingleOrDefault(x => x.MaSinhVien == id);
+
+            return View(sinhVien);
+        }
+
+        // POST: SinhVienControllers/Delete/5
+        [Route("XoaSinhVien")]
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult XoaSinhVien(SinhVien sinhVien)
+        {
+            var sv = db.SinhViens.FirstOrDefault(x => x.MaSinhVien == sinhVien.MaSinhVien);
+            db.SinhViens.Remove(sv);
+            db.SaveChanges();
+            TempData["Message"] = "Sinh viên đã được xóa";
+            return RedirectToAction("DanhSachSinhVien");
+
+        }
+
     }
 }

@@ -1,0 +1,103 @@
+﻿@using WEBNHOM10.Models;
+@using X.PagedList.Mvc.Core;
+@model X.PagedList.IPagedList<SinhVien>;
+
+@{
+    ViewData["Title"] = "DanhSachSinhVien";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+<div class="offset-1">
+    <h1>Danh Sách Sinh Viên </h1>
+</div>
+<table class="table col-11 offset-1">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model[0].MaSinhVien)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model[0].TenSinhVien)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model[0].NgaySinh)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model[0].GioiTinh)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model[0].SoDienThoat)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model[0].MaHopDong)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model[0].MaPhong)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model[0].MaLop)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model[0].MaQue)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model[0].SoCccd)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MaSinhVien)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TenSinhVien)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NgaySinh)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.GioiTinh)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SoDienThoat)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MaHopDong)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MaPhongNavigation.TenPhong)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MaLopNavigation.TenLop)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MaQueNavigation.TenQue)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SoCccd)
+                </td>
+                <td>
+                    <p class="btn btn-primary" style="background-color:darkgrey; border-color:darkgrey">
+                        @Html.ActionLink("Edit", "SuaSinhVien", new {  id=item.MaSinhVien })
+                    </p>
+
+                    <p class="btn btn-primary" style="background-color:darkgrey; border-color:darkgrey">
+                        @Html.ActionLink("Details", "XoaSinhVien", new { id=item.MaSinhVien })
+                    </p>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<div class="offset-2">
+    @Html.PagedListPager(Model,page => Url.Action("DanhSachSinhVien",new{page=page}),new
+    X.PagedList.Web.Common.PagedListRenderOptions(){
+    LiElementClasses = new List<String>{"page-item"},
+    PageClasses = new List<String>{"page-link"}
+    })
+</div>
+
+
