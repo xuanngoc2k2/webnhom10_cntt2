@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using WEBNHOM10.Models;
 
@@ -100,6 +101,49 @@ namespace WEBNHOM10.Areas.Admin.Controllers
                 .SingleOrDefault(x => x.MaSinhVien == masv);
             ViewBag.sv = sv;
             return View(sv);
+        }
+
+        [Route("ThemHoaDon")]
+        [HttpGet]
+        public IActionResult ThemHoaDon()
+        {
+            return View();
+        }
+        [Route("ThemHoaDon")]
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+
+        public IActionResult ThemHoaDon(HoaDon maHD)
+        {
+            if (ModelState.IsValid)
+            {
+                db.HoaDons.Add(maHD);
+                db.SaveChanges();
+                return RedirectToAction("ThongTinHoaDon");
+            }
+            return View(maHD);
+        }
+
+        [Route("SuaHoaDon")]
+        [HttpGet]
+        public IActionResult SuaHoaDon(int maHD)
+        {
+            ViewBag.MaHoaDon = new SelectList(db.HoaDons.ToList(), "MaHoaDon");
+            var hoaDon = db.HoaDons.Find(maHD);
+            return View(hoaDon);
+        }
+        [Route("SuaHoaDon")]
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult SuaHoaDon(HoaDon hoaDon)
+        {
+            if (ModelState.IsValid)
+            {
+                db.Entry(hoaDon).State = EntityState.Modified;
+                db.SaveChanges();
+                return RedirectToAction("ThongTinHoaDon");
+            }
+            return View();
         }
 
         [Route("thongtinhoadon")]

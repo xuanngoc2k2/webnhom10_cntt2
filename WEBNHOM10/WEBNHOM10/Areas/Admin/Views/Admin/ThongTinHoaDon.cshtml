@@ -48,7 +48,7 @@
                 @Html.DisplayFor(modelItem => item.TongTien)
             </td>
             <td>
-                <a asp-action="SuaHoaDon" asp-route-id="@item.MaHoaDon">Edit</a> |
+                <a asp-action="SuaHoaDon" asp-route-MaHoaDon="@item.MaHoaDon">Edit</a> |
                 <a asp-action="Details" asp-route-id="@item.MaHoaDon">Details</a> |
                 <a asp-action="Delete" asp-route-id="@item.MaHoaDon">Delete</a>
             </td>
