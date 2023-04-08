@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Hello\Dropbox\PC\Documents\GitHub\webnhom10_cntt2\WEBNHOM10\WEBNHOM10
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Hello/Dropbox/PC/Documents/GitHub/webnhom10_cntt2/WEBNHOM10/WEBNHOM10/Areas/Admin/Views/Admin/ChiTietHoaDon.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cQ2hpVGlldEhvYURvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Hello/Dropbox/PC/Documents/GitHub/webnhom10_cntt2/WEBNHOM10/WEBNHOM10/Areas/Admin/Views/Admin/DuyetYcThue.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cRHV5ZXRZY1RodWUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

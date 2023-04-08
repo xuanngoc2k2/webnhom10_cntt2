@@ -124,12 +124,20 @@ namespace WEBNHOM10.Areas.Admin.Controllers
             return View(maHD);
         }
 
+        [Route("ChiTietHoaDon")]
+        [HttpGet]
+        public IActionResult ChiTietHoaDon(int MaHoaDon)
+        {
+            var hoaDon = db.ChiTietHoaDons.SingleOrDefault(x => x.MaHoaDon == MaHoaDon);
+            return View(hoaDon);
+        }
+
         [Route("SuaHoaDon")]
         [HttpGet]
-        public IActionResult SuaHoaDon(int maHD)
+        public IActionResult SuaHoaDon(int MaHoaDon)
         {
-            ViewBag.MaHoaDon = new SelectList(db.HoaDons.ToList(), "MaHoaDon");
-            var hoaDon = db.HoaDons.Find(maHD);
+
+            var hoaDon = db.HoaDons.Find(MaHoaDon);
             return View(hoaDon);
         }
         [Route("SuaHoaDon")]
@@ -141,9 +149,26 @@ namespace WEBNHOM10.Areas.Admin.Controllers
             {
                 db.Entry(hoaDon).State = EntityState.Modified;
                 db.SaveChanges();
-                return RedirectToAction("ThongTinHoaDon");
+                return RedirectToAction("ThongTinHoaDon", "Admin");
             }
-            return View();
+            return View(hoaDon);
+        }
+
+        [Route("XoaHoaDon")]
+        [HttpGet]
+        public IActionResult XoaHoaDon(int MaHoaDon)
+        {
+            TempData["Message"] = "";
+            var ChiTietHoaDon = db.ChiTietHoaDons.Where(x => x.MaHoaDon == MaHoaDon).ToList();
+            if (ChiTietHoaDon.Count() > 0)
+            {
+                TempData["Message"] = "Không xóa được hóa đơn này!!!";
+                return RedirectToAction("ThongTinHoaDon", "Admin");
+            }
+            db.Remove(db.HoaDons.Find(MaHoaDon));
+            db.SaveChanges();
+            TempData["Message"] = "Hóa đơn đã được xóa!";
+            return RedirectToAction("ThongTinHoaDon", "Admin");
         }
 
         [Route("thongtinhoadon")]

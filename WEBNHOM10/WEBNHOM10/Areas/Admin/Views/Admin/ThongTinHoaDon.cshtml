@@ -9,6 +9,9 @@
 
 <div>
     <a asp-action="ThemHoaDon" asp-controller="Admin">Tạo mới</a>
+    <p style="color: red">
+        @TempData["Message"]
+    </p>
 </div>
 <table class="table">
     <thead>
@@ -48,9 +51,9 @@
                 @Html.DisplayFor(modelItem => item.TongTien)
             </td>
             <td>
-                <a asp-action="SuaHoaDon" asp-route-MaHoaDon="@item.MaHoaDon">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.MaHoaDon">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.MaHoaDon">Delete</a>
+                    <a asp-action="SuaHoaDon" asp-route-MaHoaDon="@item.MaHoaDon">Edit</a> |
+                    <a asp-action="ChiTietHoaDon" asp-route-MaHoaDon="@item.MaHoaDon">Details</a> |
+                    <a asp-action="XoaHoaDon" asp-route-MaHoaDon="@item.MaHoaDon">Delete</a>
             </td>
         </tr>
 }
