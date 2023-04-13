@@ -209,10 +209,21 @@ namespace WEBNHOM10.Controllers
             ViewBag.anhtb = db.ThietBis.Where(x=>x.MaPhong==id).ToList();
             return View(phong);
         }
+        [HttpGet]
+        public IActionResult Login()
+        {
+            string taikhoan = HttpContext.Session.GetString("TaiKhoan");
+            if (taikhoan == null)
+            {
+                return RedirectToAction("Login", "Access");
+            }
+            return RedirectToAction("Index", "Home");
+        }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
     }
 }

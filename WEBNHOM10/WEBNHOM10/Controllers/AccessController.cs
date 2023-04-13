@@ -44,5 +44,12 @@ namespace WEBNHOM10.Controllers
             }
             return View();
         }
+        public IActionResult Logout()
+        {
+            HttpContext.Session.Clear();
+            HttpContext.Session.Remove("TaiKhoan");
+            HttpContext.Session.Remove("Admin");
+            return RedirectToAction("Login", "Access");
+        }
     }
 }
