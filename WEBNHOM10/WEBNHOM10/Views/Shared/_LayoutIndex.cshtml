@@ -52,7 +52,7 @@
         <header class="header_section">
             <div class="container-fluid">
                 <nav class="navbar navbar-expand-lg custom_nav-container ">
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" asp-action="Index" asp-controller="Home">
                         <span>
                             Timups
                         </span>
@@ -65,30 +65,24 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav">
                             <li class="nav-item active">
-                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                <a class="nav-link" asp-action="Index" asp-controller="Home">Home <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#"> Watches </a>
+                                <a class="nav-link" asp-action="DanhSachPhong" asp-controller="Home"> Phòng </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#"> About </a>
+                                <a class="nav-link" asp-action="xemhoadon" asp-controller="Home"> Xem hóa đơn </a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" asp-action="GuiYeuCauThue" asp-controller="Home"> Yêu cầu thuê </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact Us</a>
+                                <a class="nav-link" asp-action="Xemhopdong" asp-controller="Home">Xem hợp đồng</a>
                             </li>
                         </ul>
                         <div class="user_option-box">
                             <a href="">
                                 <i class="fa fa-user" aria-hidden="true"></i>
-                            </a>
-                            <a href="">
-                                <i class="fa fa-cart-plus" aria-hidden="true"></i>
-                            </a>
-                            <a href="">
-                                <i class="fa fa-search" aria-hidden="true"></i>
                             </a>
                         </div>
                     </div>
@@ -106,10 +100,10 @@
                                 <div class="col-md-6">
                                     <div class="detail-box">
                                         <h1>
-                                            Smart Watches
+                                            Smart KTXs
                                         </h1>
                                         <p>
-                                            Aenean scelerisque felis ut orci condimentum laoreet. Integer nisi nisl, convallis et augue sit amet, lobortis semper quam.
+                                            Ký túc xá ĐHGTVT luôn được sự quan tâm của toàn xã hội: Chính phủ, các tỉnh, Thành phố Hà Nội, DHGTVT trong việc đầu tư xây dựng cơ sở vật chất cho sinh viên nội trú.
                                         </p>
                                         <div class="btn-box">
                                             <a href="" class="btn1">
@@ -132,10 +126,10 @@
                                 <div class="col-md-6">
                                     <div class="detail-box">
                                         <h1>
-                                            Smart Watches
+                                            Smart KTXs
                                         </h1>
                                         <p>
-                                            Aenean scelerisque felis ut orci condimentum laoreet. Integer nisi nisl, convallis et augue sit amet, lobortis semper quam.
+                                            Ký túc xá ĐHGTVT luôn được sự quan tâm của toàn xã hội: Chính phủ, các tỉnh, Thành phố Hồ Chí Minh, ĐHQG – HCM trong việc đầu tư xây dựng cơ sở vật chất cho sinh viên nội trú.
                                         </p>
                                         <div class="btn-box">
                                             <a href="" class="btn1">
@@ -158,10 +152,10 @@
                                 <div class="col-md-6">
                                     <div class="detail-box">
                                         <h1>
-                                            Smart Watches
+                                            Smart KTXs
                                         </h1>
                                         <p>
-                                            Aenean scelerisque felis ut orci condimentum laoreet. Integer nisi nisl, convallis et augue sit amet, lobortis semper quam.
+                                            Sự phát triển của nền kinh tế góp phần nâng cao đời sống xã hội, đây là điều kiện để Ký túc xá ĐHGTVT đa dạng hóa và phát triển các loại hình dịch vụ phục vụ sinh viên.
                                         </p>
                                         <div class="btn-box">
                                             <a href="" class="btn1">
@@ -206,7 +200,7 @@
             <div class="row">
                 <div class="col-md-6 col-lg-5 ">
                     <div class="img-box">
-                        <img src="../Nhom10/images/about-img.png" alt="">
+                        <img src="../images/banner.jpg" alt="">
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-7">
@@ -217,10 +211,7 @@
                             </h2>
                         </div>
                         <p>
-                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
-                            in some form, by injected humour, or randomised words which don't look even slightly believable. If you
-                            are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in
-                            the middle of text. All
+                            Trung tâm Quản lý Ký túc xá (TTQLKTX) được thành lập ngày 04/01/2000, theo Quyết định số 02/QĐ/ĐHQG/TCCB của Giám đốc ĐHGTVT, nắm trên địa bàn giáp ranh giữa thành phố Hà Nội. Là đơn vị dịch vụ, phục vụ đào tạo trực thuộc DHGTVT, với chức năng nhiệm vụ chăm lo đời sống vật chất, văn hoá tinh thần cho sinh viên
                         </p>
                         <a href="">
                             Read More
@@ -236,7 +227,7 @@
         <div class="container">
             <div class="heading_container heading_center">
                 <h2>
-                    Testimonial
+                    Đánh giá
                 </h2>
             </div>
             <div class="carousel-wrap ">
@@ -250,22 +241,18 @@
                                 <div class="client_info">
                                     <div class="client_name">
                                         <h5>
-                                            Mark Thomas
+                                            Văn An
                                         </h5>
                                         <h6>
-                                            Customer
+                                            Sinh Viên Năm 3
                                         </h6>
                                     </div>
                                     <i class="fa fa-quote-left" aria-hidden="true"></i>
                                 </div>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                    labore
-                                    et
-                                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                    cillum
-                                    dolore eu fugia
+                                    Quản trị hiệu quả hệ thống cơ sở vật chất; 
+                                    tổ chức các hoạt động phục vụ đời sống sinh hoạt, 
+                                    tạo môi trường rèn luyện –học tập, kỹ năng mềm cho sinh viên nội trú.
                                 </p>
                             </div>
                         </div>
@@ -279,22 +266,18 @@
                                 <div class="client_info">
                                     <div class="client_name">
                                         <h5>
-                                            Alina Hans
+                                            Thị Bích
                                         </h5>
                                         <h6>
-                                            Customer
+                                            Sinh viên năm 1
                                         </h6>
                                     </div>
                                     <i class="fa fa-quote-left" aria-hidden="true"></i>
                                 </div>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                    labore
-                                    et
-                                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                    cillum
-                                    dolore eu fugia
+                                    Sự phát triển của nền kinh tế góp phần nâng cao đời sống xã hội, 
+                                    đây là điều kiện để Ký túc xá ĐHQG-HCM đa dạng hóa và phát triển 
+                                    các loại hình dịch vụ phục vụ sinh viên.
                                 </p>
                             </div>
                         </div>
@@ -341,7 +324,7 @@
                             <a href="">
                                 <i class="fa fa-map-marker" aria-hidden="true"></i>
                                 <span>
-                                    Location
+                                    Hà Nội
                                 </span>
                             </a>
                             <a href="">

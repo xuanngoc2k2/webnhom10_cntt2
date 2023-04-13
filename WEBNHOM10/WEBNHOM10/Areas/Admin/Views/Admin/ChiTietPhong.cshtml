@@ -1,0 +1,66 @@
+﻿@model WEBNHOM10.Models.Phong
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "Chi tiết phòng";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+<h1>Chi tiết phòng</h1>
+
+<div>
+    <h4>Phòng</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TenPhong)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TenPhong)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Songuoitoida)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Songuoitoida)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.LoaiPhong)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.LoaiPhong)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Songuoidango)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Songuoidango)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.GiaPhong)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.GiaPhong)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Ghichu)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Ghichu)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.AnhDaiDienPhong)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.AnhDaiDienPhong)
+        </dd>
+        @*<dt class = "col-sm-2">
+        @Html.DisplayNameFor(model => model.MaNhaNavigation)
+        </dt>*@
+        @*<dd class = "col-sm-10">
+        @Html.DisplayFor(model => model.MaNhaNavigation.MaNha)
+        </dd>*@
+    </dl>
+</div>
+<div>
+    <a asp-action="SuaPhong" asp-route-id="@Model?.MaPhong">Edit</a> |
+    <a asp-action="DanhSachPhong">Back to List</a>
+</div>

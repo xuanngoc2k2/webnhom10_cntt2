@@ -1,0 +1,78 @@
+﻿@model IEnumerable<WEBNHOM10.Models.Phong>
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "Danh sách phòng";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h1>Danh sách phòng</h1>
+
+<p>
+    <a asp-action="ThemPhong">Thêm phòng</a>
+</p>
+<p>
+    @TempData["Message1"]
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.TenPhong)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Songuoitoida)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LoaiPhong)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Songuoidango)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GiaPhong)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ghichu)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AnhDaiDienPhong)
+            </th>
+
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TenPhong)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Songuoitoida)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LoaiPhong)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Songuoidango)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.GiaPhong)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Ghichu)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AnhDaiDienPhong)
+                </td>
+
+                <td>
+                    <a asp-action="SuaPhong" asp-route-id="@item.MaPhong">Edit</a> |
+                    <a asp-action="ChiTietPhong" asp-route-id="@item.MaPhong">Details</a> |
+                    <a asp-action="XoaPhong" asp-route-maPhong="@item.MaPhong">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

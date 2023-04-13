@@ -2,10 +2,12 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System.Diagnostics;
 using System.Drawing;
 using WEBNHOM10.Models;
+using WEBNHOM10.Models.Authentication;
 
 namespace WEBNHOM10.Controllers
 {
@@ -19,7 +21,6 @@ namespace WEBNHOM10.Controllers
             _logger = logger;
             _webHost = webHost;
         }
-
         public IActionResult Index()
         {
             var lstp = db.Phongs.ToList();
@@ -33,6 +34,11 @@ namespace WEBNHOM10.Controllers
         [HttpGet]
         public IActionResult GuiYeuCauThue()
         {
+            if (HttpContext.Session.GetString("TaiKhoan")!=null)
+            {
+                TempData["Message"] = "Không thể gửi thêm";
+                return View();
+            }
             TempData["Message"] = "";
             ViewBag.MaPhong = new SelectList(db.Phongs.Where(x=>x.Songuoidango<x.Songuoitoida).ToList(), "MaPhong", "TenPhong");
             return View();
@@ -116,7 +122,93 @@ namespace WEBNHOM10.Controllers
             ViewBag.MaPhong = new SelectList(db.Phongs.ToList(), "MaPhong", "TenPhong");
             return View();
         }
-
+        [Route("xemhopdong")]
+        [HttpGet]
+        [Authentication]
+        public IActionResult Xemhopdong() {
+            string taikhoan = HttpContext.Session.GetString("TaiKhoan");
+            if(taikhoan == null)
+            {
+                return RedirectToAction("Login", "Access");
+            }
+            else
+            {
+                Console.WriteLine(taikhoan);
+                var sv = db.SinhViens
+                .Include(x => x.MaLopNavigation)
+                .Include(x => x.MaQueNavigation)
+                .Include(x => x.MaPhongNavigation)
+                .Include(x => x.MaHopDongNavigation)
+                .FirstOrDefault(x => x.TaiKhoan == taikhoan);
+                ViewBag.sv = sv;
+                return View(sv);
+            }
+        }
+        [Route("xemhoadon")]
+        [HttpGet]
+        [Authentication]
+        public IActionResult Xemhoadon()
+        {
+            string taikhoan = HttpContext.Session.GetString("TaiKhoan");
+            /*if (taikhoan == null)
+            {
+                return RedirectToAction("Login", "Access");
+            }
+            else
+            {*/
+                Console.WriteLine(taikhoan);
+                var sv = db.SinhViens
+                    .Include(x => x.MaPhongNavigation)
+                    .FirstOrDefault(x => x.TaiKhoan == taikhoan);
+                var hd = db.ChiTietHoaDons.Include(x => x.MaHoaDonNavigation).OrderBy(x=>x.MaHoaDonNavigation.HanThanhToan)
+                    .Include(x => x.MaPhongNavigation).FirstOrDefault(x => x.MaPhongNavigation.MaPhong == sv.MaPhong);
+                return View(hd);
+            /*}*/
+        }
+        [Route("danhsachphong")]
+        [HttpGet]
+        public IActionResult DanhSachPhong()
+        {
+            var lstPhong = db.Phongs.ToList();
+            return View(lstPhong);
+        }
+		[HttpGet]
+        public IActionResult DanhSachPhongTheoTen(string searchString, int? priceFilter)
+        {
+            var phongs = db.Phongs.ToList();
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                phongs = phongs.Where(p => p.TenPhong.ToLower().Contains(searchString.ToLower())).ToList();
+            }
+            if (priceFilter.HasValue)
+            {
+                switch (priceFilter)
+                {
+                    case 1:
+                        phongs = phongs.Where(p => p.GiaPhong < 1500000).ToList();
+                        break;
+                    case 2:
+                        phongs = phongs.Where(p => p.GiaPhong >= 1500000 && p.GiaPhong < 2000000).ToList();
+                        break;
+                    case 3:
+                        phongs = phongs.Where(p => p.GiaPhong >= 2000000 && p.GiaPhong < 3000000).ToList();
+                        break;
+                    case 4:
+                        phongs = phongs.Where(p => p.GiaPhong >= 3000000).ToList();
+                        break;
+                }
+            }
+            return View(phongs);
+        }
+		[Route("ChiTietPhong")]
+        [HttpGet]
+        public IActionResult ChiTietPhong(int id)
+        {
+            var phong = db.Phongs.Find(id);
+            ViewBag.anhs = db.CtanhPhongs.Where(x => x.MaPhong == id).ToList();
+            ViewBag.anhtb = db.ThietBis.Where(x=>x.MaPhong==id).ToList();
+            return View(phong);
+        }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

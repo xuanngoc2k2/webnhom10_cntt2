@@ -1,0 +1,68 @@
+﻿@model WEBNHOM10.Models.Phong
+@{
+    ViewData["Title"] = "ChiTietPhong";
+    Layout = "~/Views/Shared/_LayoutNarBar.cshtml";
+}
+@{
+	var d = 0;
+}
+<h1>Chi tiết phòng @Model.TenPhong</h1>
+<div class="row">
+	<div class="col-12 col-lg-7">
+		<div class="single_product_thumb">
+			<div id="product_details_slider" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li class="active" data-target="#product_details_slider" data-slide-to="@d" style="background-image: url(../../images/Phong/@Model.AnhDaiDienPhong);">
+					</li>
+					@foreach(var i in ViewBag.anhs)
+					{
+						<li data-target="#product_details_slider" data-slide-to="@d" style="background-image: url(../../images/Phong/@i.LinkAnh);">
+						</li>
+						d++;
+					}
+				</ol>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<a class="gallery_img" href="../images/Phong/@Model.AnhDaiDienPhong">
+							<img style="max-width:1000px" class="d-block w-100" src="../images/Phong/@Model.AnhDaiDienPhong" alt="First slide">
+						</a>
+					</div>
+					@foreach (var i in ViewBag.anhs)
+					{
+						<div class="carousel-item">
+							<a class="gallery_img" href="../images/Phong/@i.LinkAnh">
+								<img style="max-width:1000px" class="d-block w-100" src="../images/Phong/@i.LinkAnh" alt="First slide">
+							</a>
+						</div>
+					}
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-12 col-lg-5">
+		<div class="single_product_desc">
+			<!-- Product Meta Data -->
+			<table class="table table-bordered">
+				<tbody>
+					<tr style="text-align: center" class="techSpecRow"><th colspan="2">Phòng @Model.TenPhong</th></tr>
+					<tr class="techSpecRow"><td class="techSpecTD1">Giá: </td><td class="techSpecTD2">@Model.GiaPhong</td></tr>
+					<tr class="techSpecRow"><td class="techSpecTD1">Loại phòng:</td><td class="techSpecTD2">@Model.LoaiPhong</td></tr>
+					<tr class="techSpecRow"><td class="techSpecTD1">Số người tối đa:</td><td class="techSpecTD2"> @Model.Songuoitoida</td></tr>
+					<tr class="techSpecRow"><td class="techSpecTD1">Số người đang ở:</td><td class="techSpecTD2"> @Model.Songuoidango</td></tr>
+				</tbody>
+			</table>
+		</div>
+		<h5 style="text-align:center;"> Các thiết bị</h5>
+		<div class="row">
+			@foreach(var item in ViewBag.anhtb)
+				{
+					<div class="col-12 col-lg-3">
+						<img style="max-width:200px" src="../Images/ThietBi/@item.AnhThietBi" />
+					</div>
+				}
+		</div>
+	</div>
+</div>
+<div>
+    <a asp-action="DanhSachPhong">Back to List</a>
+</div>

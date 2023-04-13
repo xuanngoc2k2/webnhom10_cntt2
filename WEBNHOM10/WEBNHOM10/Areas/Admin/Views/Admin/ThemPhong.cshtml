@@ -1,0 +1,68 @@
+﻿@model WEBNHOM10.Models.Phong
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "Quản lí phòng";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+<h1>Thêm phòng</h1>
+
+<h4>Phòng</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="ThemPhong">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="MaPhong" class="control-label"></label>
+                <input asp-for="MaPhong" class="form-control" />
+                <span asp-validation-for="MaPhong" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TenPhong" class="control-label"></label>
+                <input asp-for="TenPhong" class="form-control" />
+                <span asp-validation-for="TenPhong" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Songuoitoida" class="control-label"></label>
+                <input asp-for="Songuoitoida" class="form-control" />
+                <span asp-validation-for="Songuoitoida" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LoaiPhong" class="control-label"></label>
+                <input asp-for="LoaiPhong" class="form-control" />
+                <span asp-validation-for="LoaiPhong" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Songuoidango" class="control-label"></label>
+                <input asp-for="Songuoidango" class="form-control" />
+                <span asp-validation-for="Songuoidango" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="GiaPhong" class="control-label"></label>
+                <input asp-for="GiaPhong" class="form-control" />
+                <span asp-validation-for="GiaPhong" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Ghichu" class="control-label"></label>
+                <input asp-for="Ghichu" class="form-control" />
+                <span asp-validation-for="Ghichu" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MaNha" class="control-label"></label>
+                <select asp-for="MaNha" class="form-control" asp-items="ViewBag.MaNha"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="AnhDaiDienPhong" class="control-label"></label>
+                <input asp-for="AnhDaiDienPhong" class="form-control" />
+                <span asp-validation-for="AnhDaiDienPhong" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

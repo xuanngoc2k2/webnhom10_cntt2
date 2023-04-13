@@ -1,0 +1,61 @@
+﻿@model WEBNHOM10.Models.ChiTietHoaDon
+
+@{
+    ViewData["Title"] = "Xemhoadon";
+    Layout = "~/Views/Shared/_LayoutNarBar.cshtml";
+}
+<div>
+    <h4>Chi tiết hóa đơn</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Tiendien)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Tiendien)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Tiennuoc)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Tiennuoc)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Tiendichvu)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Tiendichvu)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Tienphong)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Tienphong)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.MaHoaDonNavigation.HanThanhToan)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.MaHoaDonNavigation.HanThanhToan)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.MaPhongNavigation.TenPhong)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.MaPhongNavigation.TenPhong)
+        </dd>
+        <dt class="col-sm-2">
+            Tổng tiền: 
+        </dt>
+        <dd class="col-sm-10">
+            @{
+                var s = Model.Tienphong + Model.Tiendichvu + Model.Tiendien + Model.Tiennuoc;
+            }
+            @s.ToString()
+        </dd>
+
+    </dl>
+</div>
+<div>
+    <a asp-action="Index">Back to Home</a>
+</div>
