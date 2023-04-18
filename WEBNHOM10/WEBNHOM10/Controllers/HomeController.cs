@@ -219,11 +219,35 @@ namespace WEBNHOM10.Controllers
             }
             return RedirectToAction("Index", "Home");
         }
+        [HttpGet]
+        [Authentication]
+        public IActionResult Thongtinsv()
+        {
+            string taikhoan = HttpContext.Session.GetString("TaiKhoan");
+            var sv = db.SinhViens.Include(x => x.MaLopNavigation)
+                .Include(x => x.MaPhongNavigation)
+                .Include(x => x.MaQueNavigation)
+                .FirstOrDefault(x => x.TaiKhoan == taikhoan);
+            return View(sv);
+        }
+        [HttpPost]
+        public IActionResult Thongtinsv(SinhVien sinhVien)
+        {
+            try
+            {
+                db.Entry(sinhVien).State = EntityState.Modified;
+                db.SaveChanges();
+                return RedirectToAction("Thongtinsv");
+            }
+            catch
+            {
+                return View(sinhVien);
+            }
+        }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
-
     }
 }

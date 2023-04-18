@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using WEBNHOM10.Areas.Admin.Models.Authentication;
@@ -12,6 +13,11 @@ namespace WEBNHOM10.Areas.Admin.Controllers
     [Route("admin/homeadmin")]
     public class AdminController : Controller
     {
+        private readonly IWebHostEnvironment _webHost;
+        public AdminController(IWebHostEnvironment webHostEnvironment)
+        {
+            _webHost = webHostEnvironment;
+        }
         QlKtxContext db = new QlKtxContext();
         [Route("")]
         [Route("index")]
@@ -169,9 +175,21 @@ namespace WEBNHOM10.Areas.Admin.Controllers
         {
             try
             {
+                Console.WriteLine(sinhVien.Image);
+                string uniqueFilename = null;
+                if (sinhVien.Image != null)
+                {
+                    string uploadFoler = Path.Combine(_webHost.WebRootPath, "images/SinhVien/");
+                    uniqueFilename = DateTime.Now.ToString("yyyyMMddHHmmssfff") + "_" + sinhVien.Image.FileName;
+                    string filePath = Path.Combine(uploadFoler, uniqueFilename);
+                    using (var fileStream = new FileStream(filePath, FileMode.Create))
+                    {
+                        sinhVien.Image.CopyTo(fileStream);
+                    }
+                    sinhVien.Anh = uniqueFilename;
+                }
                 db.Entry(sinhVien).State = EntityState.Modified;
                 db.SaveChanges();
-
                 return RedirectToAction("DanhSachSinhVien");
             }
             catch
@@ -230,6 +248,19 @@ namespace WEBNHOM10.Areas.Admin.Controllers
         {
             if (ModelState.IsValid)
             {
+                Console.WriteLine(phong.ImagePhong);
+                string Filename = null;
+                if (phong.ImagePhong != null)
+                {
+                    string uploadFoler = Path.Combine(_webHost.WebRootPath, "images/Phong/");
+                    Filename = DateTime.Now.ToString("yyyyMMddHHmmssfff") + "_" + phong.ImagePhong.FileName;
+                    string filePath = Path.Combine(uploadFoler, Filename);
+                    using (var fileStream = new FileStream(filePath, FileMode.Create))
+                    {
+                        phong.ImagePhong.CopyTo(fileStream);
+                    }
+                    phong.AnhDaiDienPhong = Filename;
+                }
                 db.Entry(phong).State = EntityState.Modified;
                 db.SaveChanges();
                 return RedirectToAction("DanhSachPhong");
@@ -255,8 +286,21 @@ namespace WEBNHOM10.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult ThemPhong(Phong phong)
         {
+            Console.WriteLine(phong.ImagePhong.FileName);
             if (ModelState.IsValid)
             {
+                string Filename = null;
+                if (phong.ImagePhong != null)
+                {
+                    string uploadFoler = Path.Combine(_webHost.WebRootPath, "images/Phong/");
+                    Filename = DateTime.Now.ToString("yyyyMMddHHmmssfff") + "_" + phong.ImagePhong.FileName;
+                    string filePath = Path.Combine(uploadFoler, Filename);
+                    using (var fileStream = new FileStream(filePath, FileMode.Create))
+                    {
+                        phong.ImagePhong.CopyTo(fileStream);
+                    }
+                    phong.AnhDaiDienPhong = Filename;
+                }
                 db.Phongs.Add(phong);
                 db.SaveChanges();
                 return RedirectToAction("DanhSachPhong");
@@ -292,21 +336,51 @@ namespace WEBNHOM10.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult ThemHoaDon()
         {
+            ViewBag.MaPhong = new SelectList(db.Phongs.ToList(), "MaPhong", "TenPhong");
             return View();
         }
         [Route("ThemHoaDon")]
         [HttpPost]
         [ValidateAntiForgeryToken]
-
-        public IActionResult ThemHoaDon(HoaDon maHD)
-        {
+        public IActionResult ThemHoaDon(HoaDonViewModel maHD)
+        {/*
             if (ModelState.IsValid)
+            {*/
+            TempData["MaHD"] = "";
+            TempData["HanTT"] = "";
+            try
             {
-                db.HoaDons.Add(maHD);
+                if (db.HoaDons.FirstOrDefault(x => x.MaHoaDon == maHD.HoaDon.MaHoaDon) != null)
+                {
+                    TempData["MaHD"] = "Đã tồn tại mã hóa đơn này";
+                    ViewBag.MaPhong = new SelectList(db.Phongs.ToList(), "MaPhong", "TenPhong");
+                    return View(maHD);
+                }
+                if(maHD.HoaDon.HanThanhToan - DateTime.Now < TimeSpan.FromDays(0))
+                {
+                    TempData["HanTT"] = "Hạn thanh toán không được sau hôm nay";
+                    ViewBag.MaPhong = new SelectList(db.Phongs.ToList(), "MaPhong", "TenPhong");
+                    return View(maHD);
+                }
+                var giaphong = db.Phongs.FirstOrDefault(x => x.MaPhong == maHD.ChiTietHoaDon.MaPhong).GiaPhong;
+                var hoaDon = maHD.HoaDon;
+                var chiTietHoaDon = maHD.ChiTietHoaDon;
+                hoaDon.TongTien = chiTietHoaDon.Tiendien + giaphong + chiTietHoaDon.Tiendichvu + chiTietHoaDon.Tiennuoc;
+                db.HoaDons.Add(hoaDon);
+                db.SaveChanges();
+
+                // Lưu thông tin chi tiết hóa đơn
+                chiTietHoaDon.Tienphong = giaphong;
+                chiTietHoaDon.MaHoaDon = hoaDon.MaHoaDon; // Gán khóa chính của hóa đơn cho chi tiết hóa đơn
+                db.ChiTietHoaDons.Add(chiTietHoaDon);
                 db.SaveChanges();
                 return RedirectToAction("ThongTinHoaDon");
             }
-            return View(maHD);
+            catch
+            {
+                ViewBag.MaPhong = new SelectList(db.Phongs.ToList(), "MaPhong", "TenPhong");
+                return View(maHD);
+            }
         }
 
         [Route("ChiTietHoaDon")]

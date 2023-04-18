@@ -1,0 +1,91 @@
+﻿@model WEBNHOM10.Models.SinhVien
+
+@{
+    ViewData["Title"] = "Thongtinsv";
+    Layout = "~/Views/Shared/_LayoutNarBar.cshtml";
+}
+
+<h1>Thông tin sinh viên @Model.TenSinhVien</h1>
+<hr />
+<div class="row">
+    <div class="col-md-3" style="text-align: center; width: 100%;">
+        <img src="@Url.Content("../Images/Sinhvien/"+Model.Anh)" />
+    </div>
+    <div class="col-md-9">
+        <form asp-action="Thongtinsv">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="MaSinhVien" />
+            <input type="hidden" asp-for="TrangThai" />
+            <input type="hidden" asp-for="MaPhong" />
+            <input type="hidden" asp-for="MaHopDong" />
+            <input type="hidden" asp-for="MaLop" />
+            <input type="hidden" asp-for="MaQue" />
+            <input type="hidden" asp-for="Anh" />
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="TenSinhVien" class="control-label"></label>
+                        <input asp-for="TenSinhVien" class="form-control" readonly />
+                        <span asp-validation-for="TenSinhVien" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="NgaySinh" class="control-label"></label>
+                        <input asp-for="NgaySinh" class="form-control" readonly />
+                        <span asp-validation-for="NgaySinh" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="GioiTinh" class="control-label"></label>
+                        <input asp-for="GioiTinh" class="form-control" readonly />
+                        <span asp-validation-for="GioiTinh" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="SoDienThoat" class="control-label"></label>
+                        <input asp-for="SoDienThoat" class="form-control" />
+                        <span asp-validation-for="SoDienThoat" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="MaPhongNavigation.TenPhong" class="control-label"></label>
+                        <input value="@Model.MaPhongNavigation.TenPhong" class="form-control" readonly />
+                        <span asp-validation-for="MaPhong" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="MaLopNavigation.TenLop" class="control-label"></label>
+                        <input value="@Model.MaLopNavigation.TenLop" class="form-control" readonly />
+                        <span asp-validation-for="MaLop" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="MaQueNavigation.TenQue" class="control-label"></label>
+                        <input value="@Model.MaQueNavigation.TenQue" class="form-control" readonly />
+                        <span asp-validation-for="MaQue" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="TaiKhoan" class="control-label"></label>
+                        <input asp-for="TaiKhoan" class="form-control" readonly />
+                        <span asp-validation-for="TaiKhoan" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="MatKhau" class="control-label"></label>
+                        <input asp-for="MatKhau" class="form-control" type="password" value="@Model.MatKhau"/>
+                        <span asp-validation-for="MatKhau" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="SoCccd" class="control-label"></label>
+                        <input asp-for="SoCccd" class="form-control" readonly />
+                        <span asp-validation-for="SoCccd" class="text-danger"></span>
+                    </div>
+
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Về trang chủ</a>
+</div>
+

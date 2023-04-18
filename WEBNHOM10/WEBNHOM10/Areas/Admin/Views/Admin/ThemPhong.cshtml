@@ -10,8 +10,8 @@
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="ThemPhong">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <form method="post" asp-action="ThemPhong" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger" ></div>
             <div class="form-group">
                 <label asp-for="MaPhong" class="control-label"></label>
                 <input asp-for="MaPhong" class="form-control" />
@@ -52,9 +52,12 @@
                 <select asp-for="MaNha" class="form-control" asp-items="ViewBag.MaNha"></select>
             </div>
             <div class="form-group">
-                <label asp-for="AnhDaiDienPhong" class="control-label"></label>
-                <input asp-for="AnhDaiDienPhong" class="form-control" />
-                <span asp-validation-for="AnhDaiDienPhong" class="text-danger"></span>
+                <label asp-for="ImagePhong" class="control-label"></label>
+                <div class="custom-file">
+                    <input asp-for="ImagePhong" class="custom-file-input" id="FLFrontImage" />
+                    <label class="custom-file-label" for="FLFrontImage">Chọn ảnh</label>
+                </div>@*
+                <span asp-validation-for="Image" class="text-danger"></span>*@
             </div>
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
@@ -64,5 +67,12 @@
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="DanhSachPhong">Back to List</a>
 </div>
+<script>
+    document.getElementById("FLFrontImage").onchange = function () {
+        var fileName = this.value.split("\\").pop();
+        var label = document.querySelector(".custom-file-label");
+        label.innerHTML = fileName;
+    };
+</script>

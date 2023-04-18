@@ -20,6 +20,9 @@
                 @Html.DisplayNameFor(model => model.TenPhong)
             </th>
             <th>
+                @Html.DisplayNameFor(model => model.MaNhaNavigation.TenNha)
+            </th>
+            <th>
                 @Html.DisplayNameFor(model => model.Songuoitoida)
             </th>
             <th>
@@ -34,7 +37,7 @@
             <th>
                 @Html.DisplayNameFor(model => model.Ghichu)
             </th>
-            <th>
+            <th style="width: 300px;">
                 @Html.DisplayNameFor(model => model.AnhDaiDienPhong)
             </th>
 
@@ -47,6 +50,9 @@
             <tr>
                 <td>
                     @Html.DisplayFor(modelItem => item.TenPhong)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MaNhaNavigation.TenNha)
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.Songuoitoida)
@@ -64,7 +70,7 @@
                     @Html.DisplayFor(modelItem => item.Ghichu)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.AnhDaiDienPhong)
+                    <img style="width: 300px;" src="../../Images/Phong/@item.AnhDaiDienPhong" />
                 </td>
 
                 <td>

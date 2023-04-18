@@ -76,8 +76,8 @@ public partial class SinhVien
     public virtual Phong? MaPhongNavigation { get; set; }
 
     public virtual Que? MaQueNavigation { get; set; }
-/*
-    [Required(ErrorMessage = "Bạn phải chọn ảnh")]*/
+    /*
+        [Required(ErrorMessage = "Bạn phải chọn ảnh")]*/
     [NotMapped]
     public IFormFile? Image { get; set; }
 }

@@ -10,6 +10,7 @@ namespace WEBNHOM10.Controllers
         [HttpGet]
         public IActionResult Login()
         {
+            TempData["Login"] = "";
             if (HttpContext.Session.GetString("TaiKhoan")==null)
             {
                 return View();
@@ -40,6 +41,10 @@ namespace WEBNHOM10.Controllers
                     HttpContext.Session.SetInt32("Admin", 0);
                     HttpContext.Session.SetString("TaiKhoan", u.TaiKhoan.ToString());
                     return RedirectToAction("Index", "Home");
+                }
+                else
+                {
+                    TempData["Login"] = "Tài khoản hoặc mật khẩu không chính xác !!";
                 }
             }
             return View();

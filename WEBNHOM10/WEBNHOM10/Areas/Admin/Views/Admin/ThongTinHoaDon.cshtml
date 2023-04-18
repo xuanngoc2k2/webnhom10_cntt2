@@ -15,7 +15,7 @@
 </div>
 <table class="table">
     <thead>
-        <tr class="table-warning">
+        <tr class=".table-primary">
             <th>
                 @Html.DisplayNameFor(model => model.MaHoaDon)
             </th>
@@ -30,16 +30,21 @@
     </thead>
     <tbody>
         @{
-            int i = 0;
             string @cls = "table-success";
         }
         @foreach (var item in Model)
         {
-            i = i + 1;
-            cls = "table-success";
-            if (i % 2 == 0)
+            if (item.HanThanhToan - DateTime.Now < TimeSpan.FromDays(0))
             {
-                cls = "table-primary";
+                cls = "table-danger";
+            }
+            else if (item.HanThanhToan - DateTime.Now <= TimeSpan.FromDays(3))
+            {
+                cls = "table-warning";
+            }
+            else
+            {
+                cls = "table-success";
             }
             <tr class="@cls">
                 <td>

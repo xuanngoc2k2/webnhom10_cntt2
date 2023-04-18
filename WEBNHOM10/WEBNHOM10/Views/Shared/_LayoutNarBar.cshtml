@@ -57,14 +57,16 @@
                             <li class="nav-item">
                                 <a class="nav-link" asp-action="DanhSachPhong" asp-controller="Home"> Phòng </a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" asp-action="xemhoadon" asp-controller="Home"> Xem hóa đơn </a>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Xem thông tin</a>
+                                <div class="dropdown-menu">
+                                    <a class="nav-link" asp-action="Xemhopdong" asp-controller="Home">Xem hợp đồng</a>
+                                    <a class="nav-link" asp-action="xemhoadon" asp-controller="Home"> Xem hóa đơn </a>
+                                    <a class="nav-link" asp-action="Thongtinsv" asp-controller="Home"> Thông tin sinh viên </a>
+                                </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" asp-action="GuiYeuCauThue"> Yêu cầu thuê </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" asp-action="Xemhopdong" asp-controller="Home">Xem hợp đồng</a>
+                                <a class="nav-link" asp-action="GuiYeuCauThue" asp-controller="Home"> Yêu cầu thuê </a>
                             </li>
                         </ul>
                         <div class="user_option-box">

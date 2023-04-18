@@ -8,10 +8,15 @@
 <h1>Sửa Thông Tin Sinh Viên </h1>
 <hr />
 <div class="row">
-    <div class="col-md-4 offset-md-4">
-        <form method="post" asp-action="SuaSinhVien">
+    <div class="col-md-6">
+        <img style="max-width: 100%" src="@Url.Content("../../Images/SinhVien/"+Model.Anh)"/>
+    </div>
+    <div class="col-md-6">
+        <form method="post" asp-action="SuaSinhVien" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="MaSinhVien" />
+            <input type="hidden" asp-for="MaHopDong" />
+            <input type="hidden" asp-for="TrangThai" />
             <div class="form-group">
                 <label asp-for="TenSinhVien" class="control-label"></label>
                 <input asp-for="TenSinhVien" class="form-control" />
@@ -58,10 +63,18 @@
                 <span asp-validation-for="MatKhau" class="text-danger"></span>
             </div>
             <div class="form-group">
+                <label asp-for="Image" class="control-label"></label>
+                <div class="custom-file">
+                    <input asp-for="Image" class="custom-file-input" id="FLFrontImage" />
+                    <label class="custom-file-label" for="FLFrontImage">Chọn ảnh</label>
+                </div>@*
+                <span asp-validation-for="Image" class="text-danger"></span>*@
+            </div>
+            @*<div class="form-group">
                 <label asp-for="Anh" class="control-label"></label>
                 <input asp-for="Anh" class="form-control" />
                 <span asp-validation-for="Anh" class="text-danger"></span>
-            </div>
+            </div>*@
             <div class="form-group">
                 <label asp-for="SoCccd" class="control-label"></label>
                 <input asp-for="SoCccd" class="form-control" />
@@ -74,5 +87,10 @@
         </form>
     </div>
 </div>
-
-
+<script>
+    document.getElementById("FLFrontImage").onchange = function () {
+        var fileName = this.value.split("\\").pop();
+        var label = document.querySelector(".custom-file-label");
+        label.innerHTML = fileName;
+    };
+</script>

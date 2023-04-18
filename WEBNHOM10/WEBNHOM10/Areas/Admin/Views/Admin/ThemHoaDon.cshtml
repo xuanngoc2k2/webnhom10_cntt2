@@ -1,5 +1,5 @@
 ﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
-@model WEBNHOM10.Models.HoaDon
+@model WEBNHOM10.Models.HoaDonViewModel
 
 @{
     ViewData["Title"] = "ThemHoaDon";
@@ -11,32 +11,57 @@
 <h4>Hóa đơn</h4>
 <hr />
 <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-12">
         <form method="post" asp-action="ThemHoaDon">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="MaHoaDon" class="control-label"></label>
-                <input asp-for="MaHoaDon" class="form-control" />
-                <span asp-validation-for="MaHoaDon" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="HanThanhToan" class="control-label"></label>
-                <input asp-for="HanThanhToan" class="form-control" />
-                <span asp-validation-for="HanThanhToan" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="TongTien" class="control-label"></label>
-                <input asp-for="TongTien" class="form-control" />
-                <span asp-validation-for="TongTien" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+            <div class="row">
+                <div class="col-md-6">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for="HoaDon.MaHoaDon" class="control-label"></label>
+                        <input asp-for="HoaDon.MaHoaDon" class="form-control" />
+                        <span asp-validation-for="HoaDon.MaHoaDon" class="text-danger"></span>
+                        <span class="text-danger">@TempData["MaHD"]</span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="HoaDon.HanThanhToan" class="control-label"></label>
+                        <input asp-for="HoaDon.HanThanhToan" class="form-control" />
+                        <span asp-validation-for="HoaDon.HanThanhToan" class="text-danger"></span>
+                        <span class="text-danger">@TempData["HanTT"]</span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h6>Chi tiết hóa đơn</h6>
+                    <hr />
+                    <div class="form-group">
+                        <label asp-for="ChiTietHoaDon.MaPhongNavigation.TenPhong" class="control-label"></label>
+                        <select asp-for="ChiTietHoaDon.MaPhong" class="form-control" asp-items="ViewBag.MaPhong"></select>
+                        <span asp-validation-for="ChiTietHoaDon.MaPhong" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="ChiTietHoaDon.Tiendien" class="control-label"></label>
+                        <input asp-for="ChiTietHoaDon.Tiendien" class="form-control" />
+                        <span asp-validation-for="ChiTietHoaDon.Tiendien" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="ChiTietHoaDon.Tiennuoc" class="control-label"></label>
+                        <input asp-for="ChiTietHoaDon.Tiennuoc" class="form-control" />
+                        <span asp-validation-for="ChiTietHoaDon.Tiennuoc" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="ChiTietHoaDon.Tiendichvu" class="control-label"></label>
+                        <input asp-for="ChiTietHoaDon.Tiendichvu" class="form-control" />
+                        <span asp-validation-for="ChiTietHoaDon.Tiendichvu" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Thêm" class="btn btn-primary" />
+                </div>
             </div>
         </form>
     </div>
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="ThongTinHoaDon">Back to List</a>
 </div>
 

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Build.Framework;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 
@@ -7,15 +8,17 @@ namespace WEBNHOM10.Models;
 public partial class ChiTietHoaDon
 {
     public int MaHoaDon { get; set; }
-
+    [Required]
     public int MaPhong { get; set; }
-
+    [Required]
     [DisplayName("Tiền điện")]
-    public int? Tiendien { get; set; }
+    public int Tiendien { get; set; }
     [DisplayName("Tiền nước")]
-    public int? Tiennuoc { get; set; }
+    [Required]
+    public int Tiennuoc { get; set; }
     [DisplayName("Tiền dịch vụ")]
-    public int? Tiendichvu { get; set; }
+    [Required]
+    public int Tiendichvu { get; set; }
     [DisplayName("Tiền phòng")]
     public int? Tienphong { get; set; }
 
